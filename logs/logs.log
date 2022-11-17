@@ -1,0 +1,2003 @@
+[Wed, 16 Nov 2022 23:19:20 GMT] [DEBUG] Provided token: MTA0MjU3ODEyMjg3NDMxMDcyNg.GV_m7B.**************************************
+[Wed, 16 Nov 2022 23:19:20 GMT] [DEBUG] Preparing to connect to the gateway...
+[Wed, 16 Nov 2022 23:19:20 GMT] [DEBUG] [WS => Manager] Fetched Gateway Information
+    URL: wss://gateway.discord.gg
+    Recommended Shards: 1
+[Wed, 16 Nov 2022 23:19:20 GMT] [DEBUG] [WS => Manager] Session Limit Information
+    Total: 1000
+    Remaining: 998
+[Wed, 16 Nov 2022 23:19:20 GMT] [DEBUG] [WS => Manager] Using the recommended shard count provided by Discord: 1
+[Wed, 16 Nov 2022 23:19:20 GMT] [DEBUG] [WS => Manager] Spawning shards: 0
+[Wed, 16 Nov 2022 23:19:20 GMT] [DEBUG] [WS => Shard 0] [CONNECT]
+    Gateway    : wss://gateway.discord.gg/
+    Version    : 9
+    Encoding   : json
+    Compression: none
+[Wed, 16 Nov 2022 23:19:20 GMT] [DEBUG] [WS => Shard 0] Setting a HELLO timeout for 20s.
+[Wed, 16 Nov 2022 23:19:20 GMT] [DEBUG] [WS => Shard 0] [CONNECTED] Took 353ms
+[Wed, 16 Nov 2022 23:19:20 GMT] [DEBUG] [WS => Shard 0] Clearing the HELLO timeout.
+[Wed, 16 Nov 2022 23:19:20 GMT] [DEBUG] [WS => Shard 0] Setting a heartbeat interval for 41250ms.
+[Wed, 16 Nov 2022 23:19:20 GMT] [DEBUG] [WS => Shard 0] [IDENTIFY] Shard 0/1 with intents: 515
+[Wed, 16 Nov 2022 23:19:21 GMT] [DEBUG] [WS => Shard 0] Clearing the heartbeat interval.
+[Wed, 16 Nov 2022 23:19:21 GMT] [DEBUG] [WS => Shard 0] [WebSocket] Destroy: Attempting to close the WebSocket. | WS State: CLOSED
+[Wed, 16 Nov 2022 23:19:21 GMT] [DEBUG] [WS => Shard 0] WS State: CLOSED
+[Wed, 16 Nov 2022 23:19:21 GMT] [DEBUG] [WS => Shard 0] [WebSocket] Adding a WebSocket close timeout to ensure a correct WS reconnect.
+        Timeout: 5000ms
+[Wed, 16 Nov 2022 23:19:21 GMT] [DEBUG] [WS => Shard 0] [CLOSE]
+    Event Code: 4014
+    Clean     : true
+    Reason    : Disallowed intent(s).
+[Wed, 16 Nov 2022 23:19:21 GMT] [DEBUG] [WS => Shard 0] DISALLOWED_INTENTS
+[Wed, 16 Nov 2022 23:19:21 GMT] [DEBUG] [WS => Manager] Manager was destroyed. Called by:
+Error [MANAGER_DESTROYED]: Manager was destroyed.
+    at WebSocketManager.destroy (C:\Users\FUFITSU\Desktop\letoa-me (1)\node_modules\discord.js\src\client\websocket\WebSocketManager.js:317:54)
+    at DiscordClient.destroy (C:\Users\FUFITSU\Desktop\letoa-me (1)\node_modules\discord.js\src\client\Client.js:284:13)
+    at DiscordClient.login (C:\Users\FUFITSU\Desktop\letoa-me (1)\node_modules\discord.js\src\client\Client.js:257:12)
+    at async Bot.start (C:\Users\FUFITSU\Desktop\letoa-me (1)\dist\bot.js:135:13)
+[Wed, 16 Nov 2022 23:19:21 GMT] [DEBUG] [WS => Shard 0] [WebSocket] Destroy: Attempting to close the WebSocket. | WS State: CLOSED
+[Wed, 16 Nov 2022 23:19:26 GMT] [DEBUG] [WS => Shard 0] [WebSocket] Clearing the close timeout.
+[Wed, 16 Nov 2022 23:19:26 GMT] [DEBUG] [WS => Shard 0] [WebSocket] Close Emitted: false
+[Wed, 16 Nov 2022 23:19:26 GMT] [DEBUG] [WS => Shard 0] [WebSocket] did not close properly, assuming a zombie connection.
+Emitting close and reconnecting again.
+[Wed, 16 Nov 2022 23:19:26 GMT] [DEBUG] [WS => Shard 0] [CLOSE]
+    Event Code: 1011
+    Clean     : false
+    Reason    : INTERNAL_ERROR
+[Wed, 16 Nov 2022 23:20:56 GMT] [DEBUG] Provided token: MTA0MjU3ODEyMjg3NDMxMDcyNg.GV_m7B.**************************************
+[Wed, 16 Nov 2022 23:20:56 GMT] [DEBUG] Preparing to connect to the gateway...
+[Wed, 16 Nov 2022 23:20:56 GMT] [DEBUG] [WS => Manager] Fetched Gateway Information
+    URL: wss://gateway.discord.gg
+    Recommended Shards: 1
+[Wed, 16 Nov 2022 23:20:56 GMT] [DEBUG] [WS => Manager] Session Limit Information
+    Total: 1000
+    Remaining: 997
+[Wed, 16 Nov 2022 23:20:56 GMT] [DEBUG] [WS => Manager] Using the recommended shard count provided by Discord: 1
+[Wed, 16 Nov 2022 23:20:56 GMT] [DEBUG] [WS => Manager] Spawning shards: 0
+[Wed, 16 Nov 2022 23:20:56 GMT] [DEBUG] [WS => Shard 0] [CONNECT]
+    Gateway    : wss://gateway.discord.gg/
+    Version    : 9
+    Encoding   : json
+    Compression: none
+[Wed, 16 Nov 2022 23:20:56 GMT] [DEBUG] [WS => Shard 0] Setting a HELLO timeout for 20s.
+[Wed, 16 Nov 2022 23:20:57 GMT] [DEBUG] [WS => Shard 0] [CONNECTED] Took 352ms
+[Wed, 16 Nov 2022 23:20:57 GMT] [DEBUG] [WS => Shard 0] Clearing the HELLO timeout.
+[Wed, 16 Nov 2022 23:20:57 GMT] [DEBUG] [WS => Shard 0] Setting a heartbeat interval for 41250ms.
+[Wed, 16 Nov 2022 23:20:57 GMT] [DEBUG] [WS => Shard 0] [IDENTIFY] Shard 0/1 with intents: 515
+[Wed, 16 Nov 2022 23:20:57 GMT] [DEBUG] [WS => Shard 0] [READY] Session 498981a5431cc0ca9690c79c33c37321.
+[Wed, 16 Nov 2022 23:20:57 GMT] [DEBUG] [WS => Shard 0] [ReadyHeartbeat] Sending a heartbeat.
+[Wed, 16 Nov 2022 23:20:57 GMT] [DEBUG] [WS => Shard 0] Shard received all its guilds. Marking as fully ready.
+[Wed, 16 Nov 2022 23:20:57 GMT] [DEBUG] [WS => Shard 0] Heartbeat acknowledged, latency of 226ms.
+[Wed, 16 Nov 2022 23:21:38 GMT] [DEBUG] [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+[Wed, 16 Nov 2022 23:21:38 GMT] [DEBUG] [WS => Shard 0] Heartbeat acknowledged, latency of 226ms.
+[Wed, 16 Nov 2022 23:22:02 GMT] -- [COMMAND RAN] restore was ran by Bớm Em#5012
+[Wed, 16 Nov 2022 23:22:09 GMT] [DEBUG] Garbage collection completed on ThreadManager, which had a LimitedCollection of ThreadChannel.
+[Wed, 16 Nov 2022 23:22:19 GMT] [DEBUG] [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+[Wed, 16 Nov 2022 23:22:19 GMT] [DEBUG] [WS => Shard 0] Heartbeat acknowledged, latency of 227ms.
+[Wed, 16 Nov 2022 23:22:35 GMT] [DEBUG] Hit a 429 while executing a request.
+    Global  : false
+    Method  : post
+    Path    : /webhooks/1042580374754168935/zFqGH-sUopodedKV9e8DhHRkbyb0fic7onG_a1HW8Bwk2edaJ07zYYj6PT1_xqEFcpDe?wait=true
+    Route   : /webhooks/:id/zFqGH-sUopodedKV9e8DhHRkbyb0fic7onG_a1HW8Bwk2edaJ07zYYj6PT1_xqEFcpDe
+    Limit   : 5
+    Timeout : 2110ms
+    Sublimit: 2000ms
+[Wed, 16 Nov 2022 23:22:36 GMT] [DEBUG] Hit a 429 while executing a request.
+    Global  : false
+    Method  : post
+    Path    : /webhooks/1042580378092834827/IbT-Txr7gbmR5Wv8jp7TtufwmLAsvejYFdxB1TWQgFxOAZCl8hlKZKeGz7Fe2hG2nkZ3?wait=true
+    Route   : /webhooks/:id/IbT-Txr7gbmR5Wv8jp7TtufwmLAsvejYFdxB1TWQgFxOAZCl8hlKZKeGz7Fe2hG2nkZ3
+    Limit   : 5
+    Timeout : 1108ms
+    Sublimit: None
+[Wed, 16 Nov 2022 23:22:36 GMT] [DEBUG] Hit a 429 while executing a request.
+    Global  : false
+    Method  : post
+    Path    : /webhooks/1042580373512663085/66dK2lFgRXQMEfq2e953VQNY7E3fyYMfwGmJHMnUK-zngcIhOpeD-fN0uuZ4dxHO2NVi?wait=true
+    Route   : /webhooks/:id/66dK2lFgRXQMEfq2e953VQNY7E3fyYMfwGmJHMnUK-zngcIhOpeD-fN0uuZ4dxHO2NVi
+    Limit   : 5
+    Timeout : 1438ms
+    Sublimit: 1000ms
+[Wed, 16 Nov 2022 23:22:38 GMT] [DEBUG] Hit a 429 while executing a request.
+    Global  : false
+    Method  : post
+    Path    : /webhooks/1042580378092834827/IbT-Txr7gbmR5Wv8jp7TtufwmLAsvejYFdxB1TWQgFxOAZCl8hlKZKeGz7Fe2hG2nkZ3?wait=true
+    Route   : /webhooks/:id/IbT-Txr7gbmR5Wv8jp7TtufwmLAsvejYFdxB1TWQgFxOAZCl8hlKZKeGz7Fe2hG2nkZ3
+    Limit   : 5
+    Timeout : 1877ms
+    Sublimit: 2000ms
+[Wed, 16 Nov 2022 23:22:38 GMT] [DEBUG] Hit a 429 while executing a request.
+    Global  : false
+    Method  : post
+    Path    : /webhooks/1042580373512663085/66dK2lFgRXQMEfq2e953VQNY7E3fyYMfwGmJHMnUK-zngcIhOpeD-fN0uuZ4dxHO2NVi?wait=true
+    Route   : /webhooks/:id/66dK2lFgRXQMEfq2e953VQNY7E3fyYMfwGmJHMnUK-zngcIhOpeD-fN0uuZ4dxHO2NVi
+    Limit   : 5
+    Timeout : 1943ms
+    Sublimit: 2000ms
+[Wed, 16 Nov 2022 23:22:39 GMT] [DEBUG] Hit a 429 while executing a request.
+    Global  : false
+    Method  : post
+    Path    : /webhooks/1042580374754168935/zFqGH-sUopodedKV9e8DhHRkbyb0fic7onG_a1HW8Bwk2edaJ07zYYj6PT1_xqEFcpDe?wait=true
+    Route   : /webhooks/:id/zFqGH-sUopodedKV9e8DhHRkbyb0fic7onG_a1HW8Bwk2edaJ07zYYj6PT1_xqEFcpDe
+    Limit   : 5
+    Timeout : 1427ms
+    Sublimit: 1000ms
+[Wed, 16 Nov 2022 23:22:40 GMT] [DEBUG] Hit a 429 while executing a request.
+    Global  : false
+    Method  : post
+    Path    : /webhooks/1042580378092834827/IbT-Txr7gbmR5Wv8jp7TtufwmLAsvejYFdxB1TWQgFxOAZCl8hlKZKeGz7Fe2hG2nkZ3?wait=true
+    Route   : /webhooks/:id/IbT-Txr7gbmR5Wv8jp7TtufwmLAsvejYFdxB1TWQgFxOAZCl8hlKZKeGz7Fe2hG2nkZ3
+    Limit   : 5
+    Timeout : 2097ms
+    Sublimit: 2000ms
+[Wed, 16 Nov 2022 23:22:40 GMT] [DEBUG] Hit a 429 while executing a request.
+    Global  : false
+    Method  : post
+    Path    : /webhooks/1042580373512663085/66dK2lFgRXQMEfq2e953VQNY7E3fyYMfwGmJHMnUK-zngcIhOpeD-fN0uuZ4dxHO2NVi?wait=true
+    Route   : /webhooks/:id/66dK2lFgRXQMEfq2e953VQNY7E3fyYMfwGmJHMnUK-zngcIhOpeD-fN0uuZ4dxHO2NVi
+    Limit   : 5
+    Timeout : 2144ms
+    Sublimit: 2000ms
+[Wed, 16 Nov 2022 23:22:41 GMT] [DEBUG] Hit a 429 while executing a request.
+    Global  : false
+    Method  : post
+    Path    : /webhooks/1042580374754168935/zFqGH-sUopodedKV9e8DhHRkbyb0fic7onG_a1HW8Bwk2edaJ07zYYj6PT1_xqEFcpDe?wait=true
+    Route   : /webhooks/:id/zFqGH-sUopodedKV9e8DhHRkbyb0fic7onG_a1HW8Bwk2edaJ07zYYj6PT1_xqEFcpDe
+    Limit   : 5
+    Timeout : 1826ms
+    Sublimit: 2000ms
+[Wed, 16 Nov 2022 23:22:43 GMT] [DEBUG] Hit a 429 while executing a request.
+    Global  : false
+    Method  : post
+    Path    : /webhooks/1042580374754168935/zFqGH-sUopodedKV9e8DhHRkbyb0fic7onG_a1HW8Bwk2edaJ07zYYj6PT1_xqEFcpDe?wait=true
+    Route   : /webhooks/:id/zFqGH-sUopodedKV9e8DhHRkbyb0fic7onG_a1HW8Bwk2edaJ07zYYj6PT1_xqEFcpDe
+    Limit   : 5
+    Timeout : 2137ms
+    Sublimit: 2000ms
+[Wed, 16 Nov 2022 23:22:43 GMT] [DEBUG] Hit a 429 while executing a request.
+    Global  : false
+    Method  : post
+    Path    : /webhooks/1042580378092834827/IbT-Txr7gbmR5Wv8jp7TtufwmLAsvejYFdxB1TWQgFxOAZCl8hlKZKeGz7Fe2hG2nkZ3?wait=true
+    Route   : /webhooks/:id/IbT-Txr7gbmR5Wv8jp7TtufwmLAsvejYFdxB1TWQgFxOAZCl8hlKZKeGz7Fe2hG2nkZ3
+    Limit   : 5
+    Timeout : 1809ms
+    Sublimit: 2000ms
+[Wed, 16 Nov 2022 23:22:44 GMT] [DEBUG] Hit a 429 while executing a request.
+    Global  : false
+    Method  : post
+    Path    : /webhooks/1042580373512663085/66dK2lFgRXQMEfq2e953VQNY7E3fyYMfwGmJHMnUK-zngcIhOpeD-fN0uuZ4dxHO2NVi?wait=true
+    Route   : /webhooks/:id/66dK2lFgRXQMEfq2e953VQNY7E3fyYMfwGmJHMnUK-zngcIhOpeD-fN0uuZ4dxHO2NVi
+    Limit   : 5
+    Timeout : 1635ms
+    Sublimit: 2000ms
+[Wed, 16 Nov 2022 23:22:46 GMT] [DEBUG] Hit a 429 while executing a request.
+    Global  : false
+    Method  : post
+    Path    : /webhooks/1042580378092834827/IbT-Txr7gbmR5Wv8jp7TtufwmLAsvejYFdxB1TWQgFxOAZCl8hlKZKeGz7Fe2hG2nkZ3?wait=true
+    Route   : /webhooks/:id/IbT-Txr7gbmR5Wv8jp7TtufwmLAsvejYFdxB1TWQgFxOAZCl8hlKZKeGz7Fe2hG2nkZ3
+    Limit   : 5
+    Timeout : 2164ms
+    Sublimit: 2000ms
+[Wed, 16 Nov 2022 23:22:46 GMT] [DEBUG] Hit a 429 while executing a request.
+    Global  : false
+    Method  : post
+    Path    : /webhooks/1042580373512663085/66dK2lFgRXQMEfq2e953VQNY7E3fyYMfwGmJHMnUK-zngcIhOpeD-fN0uuZ4dxHO2NVi?wait=true
+    Route   : /webhooks/:id/66dK2lFgRXQMEfq2e953VQNY7E3fyYMfwGmJHMnUK-zngcIhOpeD-fN0uuZ4dxHO2NVi
+    Limit   : 5
+    Timeout : 2156ms
+    Sublimit: 2000ms
+[Wed, 16 Nov 2022 23:22:46 GMT] [DEBUG] Hit a 429 while executing a request.
+    Global  : false
+    Method  : post
+    Path    : /webhooks/1042580374754168935/zFqGH-sUopodedKV9e8DhHRkbyb0fic7onG_a1HW8Bwk2edaJ07zYYj6PT1_xqEFcpDe?wait=true
+    Route   : /webhooks/:id/zFqGH-sUopodedKV9e8DhHRkbyb0fic7onG_a1HW8Bwk2edaJ07zYYj6PT1_xqEFcpDe
+    Limit   : 5
+    Timeout : 1632ms
+    Sublimit: 2000ms
+[Wed, 16 Nov 2022 23:22:49 GMT] [DEBUG] Hit a 429 while executing a request.
+    Global  : false
+    Method  : post
+    Path    : /webhooks/1042580378092834827/IbT-Txr7gbmR5Wv8jp7TtufwmLAsvejYFdxB1TWQgFxOAZCl8hlKZKeGz7Fe2hG2nkZ3?wait=true
+    Route   : /webhooks/:id/IbT-Txr7gbmR5Wv8jp7TtufwmLAsvejYFdxB1TWQgFxOAZCl8hlKZKeGz7Fe2hG2nkZ3
+    Limit   : 5
+    Timeout : 2191ms
+    Sublimit: 2000ms
+[Wed, 16 Nov 2022 23:22:49 GMT] [DEBUG] Hit a 429 while executing a request.
+    Global  : false
+    Method  : post
+    Path    : /webhooks/1042580374754168935/zFqGH-sUopodedKV9e8DhHRkbyb0fic7onG_a1HW8Bwk2edaJ07zYYj6PT1_xqEFcpDe?wait=true
+    Route   : /webhooks/:id/zFqGH-sUopodedKV9e8DhHRkbyb0fic7onG_a1HW8Bwk2edaJ07zYYj6PT1_xqEFcpDe
+    Limit   : 5
+    Timeout : 2137ms
+    Sublimit: 2000ms
+[Wed, 16 Nov 2022 23:22:49 GMT] [DEBUG] Hit a 429 while executing a request.
+    Global  : false
+    Method  : post
+    Path    : /webhooks/1042580373512663085/66dK2lFgRXQMEfq2e953VQNY7E3fyYMfwGmJHMnUK-zngcIhOpeD-fN0uuZ4dxHO2NVi?wait=true
+    Route   : /webhooks/:id/66dK2lFgRXQMEfq2e953VQNY7E3fyYMfwGmJHMnUK-zngcIhOpeD-fN0uuZ4dxHO2NVi
+    Limit   : 5
+    Timeout : 1750ms
+    Sublimit: 2000ms
+[Wed, 16 Nov 2022 23:22:50 GMT] [DEBUG] Hit a 429 while executing a request.
+    Global  : false
+    Method  : post
+    Path    : /webhooks/1042580369033154641/CIs5P1JlTrKnEU8rtI9CKU7S6BP56u2oBfg_M6I3iJpdOSSauW-p3ImHPvO9oUfFnkmE?wait=true
+    Route   : /webhooks/:id/CIs5P1JlTrKnEU8rtI9CKU7S6BP56u2oBfg_M6I3iJpdOSSauW-p3ImHPvO9oUfFnkmE
+    Limit   : 5
+    Timeout : 1196ms
+    Sublimit: 1000ms
+[Wed, 16 Nov 2022 23:22:51 GMT] [DEBUG] Hit a 429 while executing a request.
+    Global  : false
+    Method  : post
+    Path    : /webhooks/1042580369033154641/CIs5P1JlTrKnEU8rtI9CKU7S6BP56u2oBfg_M6I3iJpdOSSauW-p3ImHPvO9oUfFnkmE?wait=true
+    Route   : /webhooks/:id/CIs5P1JlTrKnEU8rtI9CKU7S6BP56u2oBfg_M6I3iJpdOSSauW-p3ImHPvO9oUfFnkmE
+    Limit   : 5
+    Timeout : 2136ms
+    Sublimit: 2000ms
+[Wed, 16 Nov 2022 23:22:52 GMT] [DEBUG] Hit a 429 while executing a request.
+    Global  : false
+    Method  : post
+    Path    : /webhooks/1042580378092834827/IbT-Txr7gbmR5Wv8jp7TtufwmLAsvejYFdxB1TWQgFxOAZCl8hlKZKeGz7Fe2hG2nkZ3?wait=true
+    Route   : /webhooks/:id/IbT-Txr7gbmR5Wv8jp7TtufwmLAsvejYFdxB1TWQgFxOAZCl8hlKZKeGz7Fe2hG2nkZ3
+    Limit   : 5
+    Timeout : 1777ms
+    Sublimit: 2000ms
+[Wed, 16 Nov 2022 23:22:52 GMT] [DEBUG] Hit a 429 while executing a request.
+    Global  : false
+    Method  : post
+    Path    : /webhooks/1042580373512663085/66dK2lFgRXQMEfq2e953VQNY7E3fyYMfwGmJHMnUK-zngcIhOpeD-fN0uuZ4dxHO2NVi?wait=true
+    Route   : /webhooks/:id/66dK2lFgRXQMEfq2e953VQNY7E3fyYMfwGmJHMnUK-zngcIhOpeD-fN0uuZ4dxHO2NVi
+    Limit   : 5
+    Timeout : 2119ms
+    Sublimit: 2000ms
+[Wed, 16 Nov 2022 23:22:52 GMT] [DEBUG] Hit a 429 while executing a request.
+    Global  : false
+    Method  : post
+    Path    : /webhooks/1042580374754168935/zFqGH-sUopodedKV9e8DhHRkbyb0fic7onG_a1HW8Bwk2edaJ07zYYj6PT1_xqEFcpDe?wait=true
+    Route   : /webhooks/:id/zFqGH-sUopodedKV9e8DhHRkbyb0fic7onG_a1HW8Bwk2edaJ07zYYj6PT1_xqEFcpDe
+    Limit   : 5
+    Timeout : 1620ms
+    Sublimit: 2000ms
+[Wed, 16 Nov 2022 23:22:54 GMT] [DEBUG] Hit a 429 while executing a request.
+    Global  : false
+    Method  : post
+    Path    : /webhooks/1042580378092834827/IbT-Txr7gbmR5Wv8jp7TtufwmLAsvejYFdxB1TWQgFxOAZCl8hlKZKeGz7Fe2hG2nkZ3?wait=true
+    Route   : /webhooks/:id/IbT-Txr7gbmR5Wv8jp7TtufwmLAsvejYFdxB1TWQgFxOAZCl8hlKZKeGz7Fe2hG2nkZ3
+    Limit   : 5
+    Timeout : 2136ms
+    Sublimit: 2000ms
+[Wed, 16 Nov 2022 23:22:55 GMT] [DEBUG] Hit a 429 while executing a request.
+    Global  : false
+    Method  : post
+    Path    : /webhooks/1042580369033154641/CIs5P1JlTrKnEU8rtI9CKU7S6BP56u2oBfg_M6I3iJpdOSSauW-p3ImHPvO9oUfFnkmE?wait=true
+    Route   : /webhooks/:id/CIs5P1JlTrKnEU8rtI9CKU7S6BP56u2oBfg_M6I3iJpdOSSauW-p3ImHPvO9oUfFnkmE
+    Limit   : 5
+    Timeout : 1572ms
+    Sublimit: 2000ms
+[Wed, 16 Nov 2022 23:22:55 GMT] [DEBUG] Hit a 429 while executing a request.
+    Global  : false
+    Method  : post
+    Path    : /webhooks/1042580374754168935/zFqGH-sUopodedKV9e8DhHRkbyb0fic7onG_a1HW8Bwk2edaJ07zYYj6PT1_xqEFcpDe?wait=true
+    Route   : /webhooks/:id/zFqGH-sUopodedKV9e8DhHRkbyb0fic7onG_a1HW8Bwk2edaJ07zYYj6PT1_xqEFcpDe
+    Limit   : 5
+    Timeout : 2174ms
+    Sublimit: 2000ms
+[Wed, 16 Nov 2022 23:22:55 GMT] [DEBUG] Hit a 429 while executing a request.
+    Global  : false
+    Method  : post
+    Path    : /webhooks/1042580373512663085/66dK2lFgRXQMEfq2e953VQNY7E3fyYMfwGmJHMnUK-zngcIhOpeD-fN0uuZ4dxHO2NVi?wait=true
+    Route   : /webhooks/:id/66dK2lFgRXQMEfq2e953VQNY7E3fyYMfwGmJHMnUK-zngcIhOpeD-fN0uuZ4dxHO2NVi
+    Limit   : 5
+    Timeout : 1564ms
+    Sublimit: 2000ms
+[Wed, 16 Nov 2022 23:22:57 GMT] [DEBUG] Hit a 429 while executing a request.
+    Global  : false
+    Method  : post
+    Path    : /webhooks/1042580369033154641/CIs5P1JlTrKnEU8rtI9CKU7S6BP56u2oBfg_M6I3iJpdOSSauW-p3ImHPvO9oUfFnkmE?wait=true
+    Route   : /webhooks/:id/CIs5P1JlTrKnEU8rtI9CKU7S6BP56u2oBfg_M6I3iJpdOSSauW-p3ImHPvO9oUfFnkmE
+    Limit   : 5
+    Timeout : 2152ms
+    Sublimit: 2000ms
+[Wed, 16 Nov 2022 23:22:58 GMT] [DEBUG] Hit a 429 while executing a request.
+    Global  : false
+    Method  : post
+    Path    : /webhooks/1042580378092834827/IbT-Txr7gbmR5Wv8jp7TtufwmLAsvejYFdxB1TWQgFxOAZCl8hlKZKeGz7Fe2hG2nkZ3?wait=true
+    Route   : /webhooks/:id/IbT-Txr7gbmR5Wv8jp7TtufwmLAsvejYFdxB1TWQgFxOAZCl8hlKZKeGz7Fe2hG2nkZ3
+    Limit   : 5
+    Timeout : 1559ms
+    Sublimit: 2000ms
+[Wed, 16 Nov 2022 23:22:58 GMT] [DEBUG] Hit a 429 while executing a request.
+    Global  : false
+    Method  : post
+    Path    : /webhooks/1042580373512663085/66dK2lFgRXQMEfq2e953VQNY7E3fyYMfwGmJHMnUK-zngcIhOpeD-fN0uuZ4dxHO2NVi?wait=true
+    Route   : /webhooks/:id/66dK2lFgRXQMEfq2e953VQNY7E3fyYMfwGmJHMnUK-zngcIhOpeD-fN0uuZ4dxHO2NVi
+    Limit   : 5
+    Timeout : 2036ms
+    Sublimit: 2000ms
+[Wed, 16 Nov 2022 23:22:58 GMT] [DEBUG] Hit a 429 while executing a request.
+    Global  : false
+    Method  : post
+    Path    : /webhooks/1042580374754168935/zFqGH-sUopodedKV9e8DhHRkbyb0fic7onG_a1HW8Bwk2edaJ07zYYj6PT1_xqEFcpDe?wait=true
+    Route   : /webhooks/:id/zFqGH-sUopodedKV9e8DhHRkbyb0fic7onG_a1HW8Bwk2edaJ07zYYj6PT1_xqEFcpDe
+    Limit   : 5
+    Timeout : 1691ms
+    Sublimit: 2000ms
+[Wed, 16 Nov 2022 23:23:00 GMT] [DEBUG] Hit a 429 while executing a request.
+    Global  : false
+    Method  : post
+    Path    : /webhooks/1042580369033154641/CIs5P1JlTrKnEU8rtI9CKU7S6BP56u2oBfg_M6I3iJpdOSSauW-p3ImHPvO9oUfFnkmE?wait=true
+    Route   : /webhooks/:id/CIs5P1JlTrKnEU8rtI9CKU7S6BP56u2oBfg_M6I3iJpdOSSauW-p3ImHPvO9oUfFnkmE
+    Limit   : 5
+    Timeout : 2028ms
+    Sublimit: 2000ms
+[Wed, 16 Nov 2022 23:23:00 GMT] [DEBUG] Hit a 429 while executing a request.
+    Global  : false
+    Method  : post
+    Path    : /webhooks/1042580378092834827/IbT-Txr7gbmR5Wv8jp7TtufwmLAsvejYFdxB1TWQgFxOAZCl8hlKZKeGz7Fe2hG2nkZ3?wait=true
+    Route   : /webhooks/:id/IbT-Txr7gbmR5Wv8jp7TtufwmLAsvejYFdxB1TWQgFxOAZCl8hlKZKeGz7Fe2hG2nkZ3
+    Limit   : 5
+    Timeout : 2142ms
+    Sublimit: 2000ms
+[Wed, 16 Nov 2022 23:23:01 GMT] [DEBUG] [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+[Wed, 16 Nov 2022 23:23:01 GMT] [DEBUG] [WS => Shard 0] Heartbeat acknowledged, latency of 227ms.
+[Wed, 16 Nov 2022 23:23:01 GMT] [DEBUG] Hit a 429 while executing a request.
+    Global  : false
+    Method  : post
+    Path    : /webhooks/1042580374754168935/zFqGH-sUopodedKV9e8DhHRkbyb0fic7onG_a1HW8Bwk2edaJ07zYYj6PT1_xqEFcpDe?wait=true
+    Route   : /webhooks/:id/zFqGH-sUopodedKV9e8DhHRkbyb0fic7onG_a1HW8Bwk2edaJ07zYYj6PT1_xqEFcpDe
+    Limit   : 5
+    Timeout : 2090ms
+    Sublimit: 2000ms
+[Wed, 16 Nov 2022 23:23:02 GMT] [DEBUG] Hit a 429 while executing a request.
+    Global  : false
+    Method  : post
+    Path    : /webhooks/1042580373512663085/66dK2lFgRXQMEfq2e953VQNY7E3fyYMfwGmJHMnUK-zngcIhOpeD-fN0uuZ4dxHO2NVi?wait=true
+    Route   : /webhooks/:id/66dK2lFgRXQMEfq2e953VQNY7E3fyYMfwGmJHMnUK-zngcIhOpeD-fN0uuZ4dxHO2NVi
+    Limit   : 5
+    Timeout : 895ms
+    Sublimit: 1000ms
+[Wed, 16 Nov 2022 23:23:03 GMT] [DEBUG] Hit a 429 while executing a request.
+    Global  : false
+    Method  : post
+    Path    : /webhooks/1042580369033154641/CIs5P1JlTrKnEU8rtI9CKU7S6BP56u2oBfg_M6I3iJpdOSSauW-p3ImHPvO9oUfFnkmE?wait=true
+    Route   : /webhooks/:id/CIs5P1JlTrKnEU8rtI9CKU7S6BP56u2oBfg_M6I3iJpdOSSauW-p3ImHPvO9oUfFnkmE
+    Limit   : 5
+    Timeout : 1775ms
+    Sublimit: 2000ms
+[Wed, 16 Nov 2022 23:23:03 GMT] [DEBUG] Hit a 429 while executing a request.
+    Global  : false
+    Method  : post
+    Path    : /webhooks/1042580374754168935/zFqGH-sUopodedKV9e8DhHRkbyb0fic7onG_a1HW8Bwk2edaJ07zYYj6PT1_xqEFcpDe?wait=true
+    Route   : /webhooks/:id/zFqGH-sUopodedKV9e8DhHRkbyb0fic7onG_a1HW8Bwk2edaJ07zYYj6PT1_xqEFcpDe
+    Limit   : 5
+    Timeout : 2155ms
+    Sublimit: 2000ms
+[Wed, 16 Nov 2022 23:23:04 GMT] [DEBUG] Hit a 429 while executing a request.
+    Global  : false
+    Method  : post
+    Path    : /webhooks/1042580373512663085/66dK2lFgRXQMEfq2e953VQNY7E3fyYMfwGmJHMnUK-zngcIhOpeD-fN0uuZ4dxHO2NVi?wait=true
+    Route   : /webhooks/:id/66dK2lFgRXQMEfq2e953VQNY7E3fyYMfwGmJHMnUK-zngcIhOpeD-fN0uuZ4dxHO2NVi
+    Limit   : 5
+    Timeout : 2091ms
+    Sublimit: 2000ms
+[Wed, 16 Nov 2022 23:23:06 GMT] [DEBUG] Hit a 429 while executing a request.
+    Global  : false
+    Method  : post
+    Path    : /webhooks/1042580369033154641/CIs5P1JlTrKnEU8rtI9CKU7S6BP56u2oBfg_M6I3iJpdOSSauW-p3ImHPvO9oUfFnkmE?wait=true
+    Route   : /webhooks/:id/CIs5P1JlTrKnEU8rtI9CKU7S6BP56u2oBfg_M6I3iJpdOSSauW-p3ImHPvO9oUfFnkmE
+    Limit   : 5
+    Timeout : 2162ms
+    Sublimit: 2000ms
+[Wed, 16 Nov 2022 23:23:06 GMT] [DEBUG] Hit a 429 while executing a request.
+    Global  : false
+    Method  : post
+    Path    : /webhooks/1042580373512663085/66dK2lFgRXQMEfq2e953VQNY7E3fyYMfwGmJHMnUK-zngcIhOpeD-fN0uuZ4dxHO2NVi?wait=true
+    Route   : /webhooks/:id/66dK2lFgRXQMEfq2e953VQNY7E3fyYMfwGmJHMnUK-zngcIhOpeD-fN0uuZ4dxHO2NVi
+    Limit   : 5
+    Timeout : 2163ms
+    Sublimit: 2000ms
+[Wed, 16 Nov 2022 23:23:07 GMT] [DEBUG] Hit a 429 while executing a request.
+    Global  : false
+    Method  : post
+    Path    : /webhooks/1042580374754168935/zFqGH-sUopodedKV9e8DhHRkbyb0fic7onG_a1HW8Bwk2edaJ07zYYj6PT1_xqEFcpDe?wait=true
+    Route   : /webhooks/:id/zFqGH-sUopodedKV9e8DhHRkbyb0fic7onG_a1HW8Bwk2edaJ07zYYj6PT1_xqEFcpDe
+    Limit   : 5
+    Timeout : 1541ms
+    Sublimit: 2000ms
+[Wed, 16 Nov 2022 23:23:09 GMT] [DEBUG] Hit a 429 while executing a request.
+    Global  : false
+    Method  : post
+    Path    : /webhooks/1042580369033154641/CIs5P1JlTrKnEU8rtI9CKU7S6BP56u2oBfg_M6I3iJpdOSSauW-p3ImHPvO9oUfFnkmE?wait=true
+    Route   : /webhooks/:id/CIs5P1JlTrKnEU8rtI9CKU7S6BP56u2oBfg_M6I3iJpdOSSauW-p3ImHPvO9oUfFnkmE
+    Limit   : 5
+    Timeout : 1832ms
+    Sublimit: 2000ms
+[Wed, 16 Nov 2022 23:23:10 GMT] [DEBUG] Hit a 429 while executing a request.
+    Global  : false
+    Method  : post
+    Path    : /webhooks/1042580374754168935/zFqGH-sUopodedKV9e8DhHRkbyb0fic7onG_a1HW8Bwk2edaJ07zYYj6PT1_xqEFcpDe?wait=true
+    Route   : /webhooks/:id/zFqGH-sUopodedKV9e8DhHRkbyb0fic7onG_a1HW8Bwk2edaJ07zYYj6PT1_xqEFcpDe
+    Limit   : 5
+    Timeout : 2046ms
+    Sublimit: 2000ms
+[Wed, 16 Nov 2022 23:23:11 GMT] [DEBUG] Hit a 429 while executing a request.
+    Global  : false
+    Method  : post
+    Path    : /webhooks/1042580369033154641/CIs5P1JlTrKnEU8rtI9CKU7S6BP56u2oBfg_M6I3iJpdOSSauW-p3ImHPvO9oUfFnkmE?wait=true
+    Route   : /webhooks/:id/CIs5P1JlTrKnEU8rtI9CKU7S6BP56u2oBfg_M6I3iJpdOSSauW-p3ImHPvO9oUfFnkmE
+    Limit   : 5
+    Timeout : 2173ms
+    Sublimit: 2000ms
+[Wed, 16 Nov 2022 23:23:13 GMT] [DEBUG] Hit a 429 while executing a request.
+    Global  : false
+    Method  : post
+    Path    : /webhooks/1042580374754168935/zFqGH-sUopodedKV9e8DhHRkbyb0fic7onG_a1HW8Bwk2edaJ07zYYj6PT1_xqEFcpDe?wait=true
+    Route   : /webhooks/:id/zFqGH-sUopodedKV9e8DhHRkbyb0fic7onG_a1HW8Bwk2edaJ07zYYj6PT1_xqEFcpDe
+    Limit   : 5
+    Timeout : 1820ms
+    Sublimit: 2000ms
+[Wed, 16 Nov 2022 23:23:14 GMT] [DEBUG] Hit a 429 while executing a request.
+    Global  : false
+    Method  : post
+    Path    : /webhooks/1042580369033154641/CIs5P1JlTrKnEU8rtI9CKU7S6BP56u2oBfg_M6I3iJpdOSSauW-p3ImHPvO9oUfFnkmE?wait=true
+    Route   : /webhooks/:id/CIs5P1JlTrKnEU8rtI9CKU7S6BP56u2oBfg_M6I3iJpdOSSauW-p3ImHPvO9oUfFnkmE
+    Limit   : 5
+    Timeout : 2076ms
+    Sublimit: 2000ms
+[Wed, 16 Nov 2022 23:23:15 GMT] [DEBUG] Hit a 429 while executing a request.
+    Global  : false
+    Method  : post
+    Path    : /webhooks/1042580374754168935/zFqGH-sUopodedKV9e8DhHRkbyb0fic7onG_a1HW8Bwk2edaJ07zYYj6PT1_xqEFcpDe?wait=true
+    Route   : /webhooks/:id/zFqGH-sUopodedKV9e8DhHRkbyb0fic7onG_a1HW8Bwk2edaJ07zYYj6PT1_xqEFcpDe
+    Limit   : 5
+    Timeout : 2052ms
+    Sublimit: 2000ms
+[Wed, 16 Nov 2022 23:23:17 GMT] [DEBUG] Hit a 429 while executing a request.
+    Global  : false
+    Method  : post
+    Path    : /webhooks/1042580369033154641/CIs5P1JlTrKnEU8rtI9CKU7S6BP56u2oBfg_M6I3iJpdOSSauW-p3ImHPvO9oUfFnkmE?wait=true
+    Route   : /webhooks/:id/CIs5P1JlTrKnEU8rtI9CKU7S6BP56u2oBfg_M6I3iJpdOSSauW-p3ImHPvO9oUfFnkmE
+    Limit   : 5
+    Timeout : 1652ms
+    Sublimit: 2000ms
+[Wed, 16 Nov 2022 23:23:18 GMT] [DEBUG] Hit a 429 while executing a request.
+    Global  : false
+    Method  : post
+    Path    : /webhooks/1042580374754168935/zFqGH-sUopodedKV9e8DhHRkbyb0fic7onG_a1HW8Bwk2edaJ07zYYj6PT1_xqEFcpDe?wait=true
+    Route   : /webhooks/:id/zFqGH-sUopodedKV9e8DhHRkbyb0fic7onG_a1HW8Bwk2edaJ07zYYj6PT1_xqEFcpDe
+    Limit   : 5
+    Timeout : 1804ms
+    Sublimit: 2000ms
+[Wed, 16 Nov 2022 23:23:21 GMT] [DEBUG] Hit a 429 while executing a request.
+    Global  : false
+    Method  : post
+    Path    : /webhooks/1042580374754168935/zFqGH-sUopodedKV9e8DhHRkbyb0fic7onG_a1HW8Bwk2edaJ07zYYj6PT1_xqEFcpDe?wait=true
+    Route   : /webhooks/:id/zFqGH-sUopodedKV9e8DhHRkbyb0fic7onG_a1HW8Bwk2edaJ07zYYj6PT1_xqEFcpDe
+    Limit   : 5
+    Timeout : 2182ms
+    Sublimit: 2000ms
+[Wed, 16 Nov 2022 23:23:24 GMT] [DEBUG] Hit a 429 while executing a request.
+    Global  : false
+    Method  : post
+    Path    : /webhooks/1042580374754168935/zFqGH-sUopodedKV9e8DhHRkbyb0fic7onG_a1HW8Bwk2edaJ07zYYj6PT1_xqEFcpDe?wait=true
+    Route   : /webhooks/:id/zFqGH-sUopodedKV9e8DhHRkbyb0fic7onG_a1HW8Bwk2edaJ07zYYj6PT1_xqEFcpDe
+    Limit   : 5
+    Timeout : 1634ms
+    Sublimit: 2000ms
+[Wed, 16 Nov 2022 23:23:27 GMT] [DEBUG] Hit a 429 while executing a request.
+    Global  : false
+    Method  : post
+    Path    : /webhooks/1042580374754168935/zFqGH-sUopodedKV9e8DhHRkbyb0fic7onG_a1HW8Bwk2edaJ07zYYj6PT1_xqEFcpDe?wait=true
+    Route   : /webhooks/:id/zFqGH-sUopodedKV9e8DhHRkbyb0fic7onG_a1HW8Bwk2edaJ07zYYj6PT1_xqEFcpDe
+    Limit   : 5
+    Timeout : 2161ms
+    Sublimit: 2000ms
+[Wed, 16 Nov 2022 23:23:29 GMT] [DEBUG] Hit a 429 while executing a request.
+    Global  : false
+    Method  : post
+    Path    : /webhooks/1042580369033154641/CIs5P1JlTrKnEU8rtI9CKU7S6BP56u2oBfg_M6I3iJpdOSSauW-p3ImHPvO9oUfFnkmE?wait=true
+    Route   : /webhooks/:id/CIs5P1JlTrKnEU8rtI9CKU7S6BP56u2oBfg_M6I3iJpdOSSauW-p3ImHPvO9oUfFnkmE
+    Limit   : 5
+    Timeout : 2082ms
+    Sublimit: 2000ms
+[Wed, 16 Nov 2022 23:23:30 GMT] [DEBUG] Hit a 429 while executing a request.
+    Global  : false
+    Method  : post
+    Path    : /webhooks/1042580374754168935/zFqGH-sUopodedKV9e8DhHRkbyb0fic7onG_a1HW8Bwk2edaJ07zYYj6PT1_xqEFcpDe?wait=true
+    Route   : /webhooks/:id/zFqGH-sUopodedKV9e8DhHRkbyb0fic7onG_a1HW8Bwk2edaJ07zYYj6PT1_xqEFcpDe
+    Limit   : 5
+    Timeout : 2017ms
+    Sublimit: 2000ms
+[Wed, 16 Nov 2022 23:23:31 GMT] [DEBUG] Hit a 429 while executing a request.
+    Global  : false
+    Method  : post
+    Path    : /webhooks/1042580369033154641/CIs5P1JlTrKnEU8rtI9CKU7S6BP56u2oBfg_M6I3iJpdOSSauW-p3ImHPvO9oUfFnkmE?wait=true
+    Route   : /webhooks/:id/CIs5P1JlTrKnEU8rtI9CKU7S6BP56u2oBfg_M6I3iJpdOSSauW-p3ImHPvO9oUfFnkmE
+    Limit   : 5
+    Timeout : 2123ms
+    Sublimit: 2000ms
+[Wed, 16 Nov 2022 23:23:33 GMT] [DEBUG] Hit a 429 while executing a request.
+    Global  : false
+    Method  : post
+    Path    : /webhooks/1042580374754168935/zFqGH-sUopodedKV9e8DhHRkbyb0fic7onG_a1HW8Bwk2edaJ07zYYj6PT1_xqEFcpDe?wait=true
+    Route   : /webhooks/:id/zFqGH-sUopodedKV9e8DhHRkbyb0fic7onG_a1HW8Bwk2edaJ07zYYj6PT1_xqEFcpDe
+    Limit   : 5
+    Timeout : 1806ms
+    Sublimit: 2000ms
+[Wed, 16 Nov 2022 23:23:34 GMT] [DEBUG] Hit a 429 while executing a request.
+    Global  : false
+    Method  : post
+    Path    : /webhooks/1042580369033154641/CIs5P1JlTrKnEU8rtI9CKU7S6BP56u2oBfg_M6I3iJpdOSSauW-p3ImHPvO9oUfFnkmE?wait=true
+    Route   : /webhooks/:id/CIs5P1JlTrKnEU8rtI9CKU7S6BP56u2oBfg_M6I3iJpdOSSauW-p3ImHPvO9oUfFnkmE
+    Limit   : 5
+    Timeout : 2104ms
+    Sublimit: 2000ms
+[Wed, 16 Nov 2022 23:23:35 GMT] [DEBUG] Hit a 429 while executing a request.
+    Global  : false
+    Method  : post
+    Path    : /webhooks/1042580374754168935/zFqGH-sUopodedKV9e8DhHRkbyb0fic7onG_a1HW8Bwk2edaJ07zYYj6PT1_xqEFcpDe?wait=true
+    Route   : /webhooks/:id/zFqGH-sUopodedKV9e8DhHRkbyb0fic7onG_a1HW8Bwk2edaJ07zYYj6PT1_xqEFcpDe
+    Limit   : 5
+    Timeout : 2143ms
+    Sublimit: 2000ms
+[Wed, 16 Nov 2022 23:23:38 GMT] [DEBUG] Hit a 429 while executing a request.
+    Global  : false
+    Method  : post
+    Path    : /webhooks/1042580369033154641/CIs5P1JlTrKnEU8rtI9CKU7S6BP56u2oBfg_M6I3iJpdOSSauW-p3ImHPvO9oUfFnkmE?wait=true
+    Route   : /webhooks/:id/CIs5P1JlTrKnEU8rtI9CKU7S6BP56u2oBfg_M6I3iJpdOSSauW-p3ImHPvO9oUfFnkmE
+    Limit   : 5
+    Timeout : 1519ms
+    Sublimit: 2000ms
+[Wed, 16 Nov 2022 23:23:41 GMT] [DEBUG] Hit a 429 while executing a request.
+    Global  : false
+    Method  : post
+    Path    : /webhooks/1042580369033154641/CIs5P1JlTrKnEU8rtI9CKU7S6BP56u2oBfg_M6I3iJpdOSSauW-p3ImHPvO9oUfFnkmE?wait=true
+    Route   : /webhooks/:id/CIs5P1JlTrKnEU8rtI9CKU7S6BP56u2oBfg_M6I3iJpdOSSauW-p3ImHPvO9oUfFnkmE
+    Limit   : 5
+    Timeout : 1702ms
+    Sublimit: 2000ms
+[Wed, 16 Nov 2022 23:23:41 GMT] [DEBUG] Hit a 429 while executing a request.
+    Global  : false
+    Method  : post
+    Path    : /webhooks/1042580374754168935/zFqGH-sUopodedKV9e8DhHRkbyb0fic7onG_a1HW8Bwk2edaJ07zYYj6PT1_xqEFcpDe?wait=true
+    Route   : /webhooks/:id/zFqGH-sUopodedKV9e8DhHRkbyb0fic7onG_a1HW8Bwk2edaJ07zYYj6PT1_xqEFcpDe
+    Limit   : 5
+    Timeout : 2021ms
+    Sublimit: 2000ms
+[Wed, 16 Nov 2022 23:23:42 GMT] [DEBUG] [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+[Wed, 16 Nov 2022 23:23:42 GMT] [DEBUG] [WS => Shard 0] Heartbeat acknowledged, latency of 234ms.
+[Wed, 16 Nov 2022 23:23:43 GMT] [DEBUG] Hit a 429 while executing a request.
+    Global  : false
+    Method  : post
+    Path    : /webhooks/1042580369033154641/CIs5P1JlTrKnEU8rtI9CKU7S6BP56u2oBfg_M6I3iJpdOSSauW-p3ImHPvO9oUfFnkmE?wait=true
+    Route   : /webhooks/:id/CIs5P1JlTrKnEU8rtI9CKU7S6BP56u2oBfg_M6I3iJpdOSSauW-p3ImHPvO9oUfFnkmE
+    Limit   : 5
+    Timeout : 2135ms
+    Sublimit: 2000ms
+[Wed, 16 Nov 2022 23:23:43 GMT] [DEBUG] Hit a 429 while executing a request.
+    Global  : false
+    Method  : post
+    Path    : /webhooks/1042580374754168935/zFqGH-sUopodedKV9e8DhHRkbyb0fic7onG_a1HW8Bwk2edaJ07zYYj6PT1_xqEFcpDe?wait=true
+    Route   : /webhooks/:id/zFqGH-sUopodedKV9e8DhHRkbyb0fic7onG_a1HW8Bwk2edaJ07zYYj6PT1_xqEFcpDe
+    Limit   : 5
+    Timeout : 2104ms
+    Sublimit: 2000ms
+[Wed, 16 Nov 2022 23:23:46 GMT] [DEBUG] Hit a 429 while executing a request.
+    Global  : false
+    Method  : post
+    Path    : /webhooks/1042580369033154641/CIs5P1JlTrKnEU8rtI9CKU7S6BP56u2oBfg_M6I3iJpdOSSauW-p3ImHPvO9oUfFnkmE?wait=true
+    Route   : /webhooks/:id/CIs5P1JlTrKnEU8rtI9CKU7S6BP56u2oBfg_M6I3iJpdOSSauW-p3ImHPvO9oUfFnkmE
+    Limit   : 5
+    Timeout : 2065ms
+    Sublimit: 2000ms
+[Wed, 16 Nov 2022 23:23:46 GMT] [DEBUG] Hit a 429 while executing a request.
+    Global  : false
+    Method  : post
+    Path    : /webhooks/1042580374754168935/zFqGH-sUopodedKV9e8DhHRkbyb0fic7onG_a1HW8Bwk2edaJ07zYYj6PT1_xqEFcpDe?wait=true
+    Route   : /webhooks/:id/zFqGH-sUopodedKV9e8DhHRkbyb0fic7onG_a1HW8Bwk2edaJ07zYYj6PT1_xqEFcpDe
+    Limit   : 5
+    Timeout : 1745ms
+    Sublimit: 2000ms
+[Wed, 16 Nov 2022 23:23:49 GMT] [DEBUG] Hit a 429 while executing a request.
+    Global  : false
+    Method  : post
+    Path    : /webhooks/1042580374754168935/zFqGH-sUopodedKV9e8DhHRkbyb0fic7onG_a1HW8Bwk2edaJ07zYYj6PT1_xqEFcpDe?wait=true
+    Route   : /webhooks/:id/zFqGH-sUopodedKV9e8DhHRkbyb0fic7onG_a1HW8Bwk2edaJ07zYYj6PT1_xqEFcpDe
+    Limit   : 5
+    Timeout : 2114ms
+    Sublimit: 2000ms
+[Wed, 16 Nov 2022 23:23:49 GMT] [DEBUG] Hit a 429 while executing a request.
+    Global  : false
+    Method  : post
+    Path    : /webhooks/1042580369033154641/CIs5P1JlTrKnEU8rtI9CKU7S6BP56u2oBfg_M6I3iJpdOSSauW-p3ImHPvO9oUfFnkmE?wait=true
+    Route   : /webhooks/:id/CIs5P1JlTrKnEU8rtI9CKU7S6BP56u2oBfg_M6I3iJpdOSSauW-p3ImHPvO9oUfFnkmE
+    Limit   : 5
+    Timeout : 1759ms
+    Sublimit: 2000ms
+[Wed, 16 Nov 2022 23:23:52 GMT] [DEBUG] Hit a 429 while executing a request.
+    Global  : false
+    Method  : post
+    Path    : /webhooks/1042580369033154641/CIs5P1JlTrKnEU8rtI9CKU7S6BP56u2oBfg_M6I3iJpdOSSauW-p3ImHPvO9oUfFnkmE?wait=true
+    Route   : /webhooks/:id/CIs5P1JlTrKnEU8rtI9CKU7S6BP56u2oBfg_M6I3iJpdOSSauW-p3ImHPvO9oUfFnkmE
+    Limit   : 5
+    Timeout : 2108ms
+    Sublimit: 2000ms
+[Wed, 16 Nov 2022 23:23:52 GMT] [DEBUG] Hit a 429 while executing a request.
+    Global  : false
+    Method  : post
+    Path    : /webhooks/1042580374754168935/zFqGH-sUopodedKV9e8DhHRkbyb0fic7onG_a1HW8Bwk2edaJ07zYYj6PT1_xqEFcpDe?wait=true
+    Route   : /webhooks/:id/zFqGH-sUopodedKV9e8DhHRkbyb0fic7onG_a1HW8Bwk2edaJ07zYYj6PT1_xqEFcpDe
+    Limit   : 5
+    Timeout : 1614ms
+    Sublimit: 2000ms
+[Wed, 16 Nov 2022 23:23:55 GMT] [DEBUG] Hit a 429 while executing a request.
+    Global  : false
+    Method  : post
+    Path    : /webhooks/1042580374754168935/zFqGH-sUopodedKV9e8DhHRkbyb0fic7onG_a1HW8Bwk2edaJ07zYYj6PT1_xqEFcpDe?wait=true
+    Route   : /webhooks/:id/zFqGH-sUopodedKV9e8DhHRkbyb0fic7onG_a1HW8Bwk2edaJ07zYYj6PT1_xqEFcpDe
+    Limit   : 5
+    Timeout : 2153ms
+    Sublimit: 2000ms
+[Wed, 16 Nov 2022 23:23:56 GMT] [DEBUG] Hit a 429 while executing a request.
+    Global  : false
+    Method  : post
+    Path    : /webhooks/1042580369033154641/CIs5P1JlTrKnEU8rtI9CKU7S6BP56u2oBfg_M6I3iJpdOSSauW-p3ImHPvO9oUfFnkmE?wait=true
+    Route   : /webhooks/:id/CIs5P1JlTrKnEU8rtI9CKU7S6BP56u2oBfg_M6I3iJpdOSSauW-p3ImHPvO9oUfFnkmE
+    Limit   : 5
+    Timeout : 1685ms
+    Sublimit: 2000ms
+[Wed, 16 Nov 2022 23:23:58 GMT] [DEBUG] Hit a 429 while executing a request.
+    Global  : false
+    Method  : post
+    Path    : /webhooks/1042580374754168935/zFqGH-sUopodedKV9e8DhHRkbyb0fic7onG_a1HW8Bwk2edaJ07zYYj6PT1_xqEFcpDe?wait=true
+    Route   : /webhooks/:id/zFqGH-sUopodedKV9e8DhHRkbyb0fic7onG_a1HW8Bwk2edaJ07zYYj6PT1_xqEFcpDe
+    Limit   : 5
+    Timeout : 1808ms
+    Sublimit: 2000ms
+[Wed, 16 Nov 2022 23:23:59 GMT] [DEBUG] Hit a 429 while executing a request.
+    Global  : false
+    Method  : post
+    Path    : /webhooks/1042580369033154641/CIs5P1JlTrKnEU8rtI9CKU7S6BP56u2oBfg_M6I3iJpdOSSauW-p3ImHPvO9oUfFnkmE?wait=true
+    Route   : /webhooks/:id/CIs5P1JlTrKnEU8rtI9CKU7S6BP56u2oBfg_M6I3iJpdOSSauW-p3ImHPvO9oUfFnkmE
+    Limit   : 5
+    Timeout : 1715ms
+    Sublimit: 2000ms
+[Wed, 16 Nov 2022 23:24:01 GMT] [DEBUG] Hit a 429 while executing a request.
+    Global  : false
+    Method  : post
+    Path    : /webhooks/1042580374754168935/zFqGH-sUopodedKV9e8DhHRkbyb0fic7onG_a1HW8Bwk2edaJ07zYYj6PT1_xqEFcpDe?wait=true
+    Route   : /webhooks/:id/zFqGH-sUopodedKV9e8DhHRkbyb0fic7onG_a1HW8Bwk2edaJ07zYYj6PT1_xqEFcpDe
+    Limit   : 5
+    Timeout : 2182ms
+    Sublimit: 2000ms
+[Wed, 16 Nov 2022 23:24:01 GMT] [DEBUG] Hit a 429 while executing a request.
+    Global  : false
+    Method  : post
+    Path    : /webhooks/1042580369033154641/CIs5P1JlTrKnEU8rtI9CKU7S6BP56u2oBfg_M6I3iJpdOSSauW-p3ImHPvO9oUfFnkmE?wait=true
+    Route   : /webhooks/:id/CIs5P1JlTrKnEU8rtI9CKU7S6BP56u2oBfg_M6I3iJpdOSSauW-p3ImHPvO9oUfFnkmE
+    Limit   : 5
+    Timeout : 2127ms
+    Sublimit: 2000ms
+[Wed, 16 Nov 2022 23:24:04 GMT] [DEBUG] Hit a 429 while executing a request.
+    Global  : false
+    Method  : post
+    Path    : /webhooks/1042580374754168935/zFqGH-sUopodedKV9e8DhHRkbyb0fic7onG_a1HW8Bwk2edaJ07zYYj6PT1_xqEFcpDe?wait=true
+    Route   : /webhooks/:id/zFqGH-sUopodedKV9e8DhHRkbyb0fic7onG_a1HW8Bwk2edaJ07zYYj6PT1_xqEFcpDe
+    Limit   : 5
+    Timeout : 2126ms
+    Sublimit: 2000ms
+[Wed, 16 Nov 2022 23:24:05 GMT] [DEBUG] Hit a 429 while executing a request.
+    Global  : false
+    Method  : post
+    Path    : /webhooks/1042580369033154641/CIs5P1JlTrKnEU8rtI9CKU7S6BP56u2oBfg_M6I3iJpdOSSauW-p3ImHPvO9oUfFnkmE?wait=true
+    Route   : /webhooks/:id/CIs5P1JlTrKnEU8rtI9CKU7S6BP56u2oBfg_M6I3iJpdOSSauW-p3ImHPvO9oUfFnkmE
+    Limit   : 5
+    Timeout : 1577ms
+    Sublimit: 2000ms
+[Wed, 16 Nov 2022 23:24:07 GMT] [DEBUG] Hit a 429 while executing a request.
+    Global  : false
+    Method  : post
+    Path    : /webhooks/1042580374754168935/zFqGH-sUopodedKV9e8DhHRkbyb0fic7onG_a1HW8Bwk2edaJ07zYYj6PT1_xqEFcpDe?wait=true
+    Route   : /webhooks/:id/zFqGH-sUopodedKV9e8DhHRkbyb0fic7onG_a1HW8Bwk2edaJ07zYYj6PT1_xqEFcpDe
+    Limit   : 5
+    Timeout : 1706ms
+    Sublimit: 2000ms
+[Wed, 16 Nov 2022 23:24:07 GMT] [DEBUG] Hit a 429 while executing a request.
+    Global  : false
+    Method  : post
+    Path    : /webhooks/1042580369033154641/CIs5P1JlTrKnEU8rtI9CKU7S6BP56u2oBfg_M6I3iJpdOSSauW-p3ImHPvO9oUfFnkmE?wait=true
+    Route   : /webhooks/:id/CIs5P1JlTrKnEU8rtI9CKU7S6BP56u2oBfg_M6I3iJpdOSSauW-p3ImHPvO9oUfFnkmE
+    Limit   : 5
+    Timeout : 2139ms
+    Sublimit: 2000ms
+[Wed, 16 Nov 2022 23:24:09 GMT] [DEBUG] Hit a 429 while executing a request.
+    Global  : false
+    Method  : post
+    Path    : /webhooks/1042580374754168935/zFqGH-sUopodedKV9e8DhHRkbyb0fic7onG_a1HW8Bwk2edaJ07zYYj6PT1_xqEFcpDe?wait=true
+    Route   : /webhooks/:id/zFqGH-sUopodedKV9e8DhHRkbyb0fic7onG_a1HW8Bwk2edaJ07zYYj6PT1_xqEFcpDe
+    Limit   : 5
+    Timeout : 2148ms
+    Sublimit: 2000ms
+[Wed, 16 Nov 2022 23:24:10 GMT] [DEBUG] Hit a 429 while executing a request.
+    Global  : false
+    Method  : post
+    Path    : /webhooks/1042580369033154641/CIs5P1JlTrKnEU8rtI9CKU7S6BP56u2oBfg_M6I3iJpdOSSauW-p3ImHPvO9oUfFnkmE?wait=true
+    Route   : /webhooks/:id/CIs5P1JlTrKnEU8rtI9CKU7S6BP56u2oBfg_M6I3iJpdOSSauW-p3ImHPvO9oUfFnkmE
+    Limit   : 5
+    Timeout : 2042ms
+    Sublimit: 2000ms
+[Wed, 16 Nov 2022 23:24:13 GMT] [DEBUG] Hit a 429 while executing a request.
+    Global  : false
+    Method  : post
+    Path    : /webhooks/1042580374754168935/zFqGH-sUopodedKV9e8DhHRkbyb0fic7onG_a1HW8Bwk2edaJ07zYYj6PT1_xqEFcpDe?wait=true
+    Route   : /webhooks/:id/zFqGH-sUopodedKV9e8DhHRkbyb0fic7onG_a1HW8Bwk2edaJ07zYYj6PT1_xqEFcpDe
+    Limit   : 5
+    Timeout : 1548ms
+    Sublimit: 2000ms
+[Wed, 16 Nov 2022 23:24:14 GMT] [DEBUG] Hit a 429 while executing a request.
+    Global  : false
+    Method  : post
+    Path    : /webhooks/1042580369033154641/CIs5P1JlTrKnEU8rtI9CKU7S6BP56u2oBfg_M6I3iJpdOSSauW-p3ImHPvO9oUfFnkmE?wait=true
+    Route   : /webhooks/:id/CIs5P1JlTrKnEU8rtI9CKU7S6BP56u2oBfg_M6I3iJpdOSSauW-p3ImHPvO9oUfFnkmE
+    Limit   : 5
+    Timeout : 1608ms
+    Sublimit: 2000ms
+[Wed, 16 Nov 2022 23:24:15 GMT] [DEBUG] Hit a 429 while executing a request.
+    Global  : false
+    Method  : post
+    Path    : /webhooks/1042580374754168935/zFqGH-sUopodedKV9e8DhHRkbyb0fic7onG_a1HW8Bwk2edaJ07zYYj6PT1_xqEFcpDe?wait=true
+    Route   : /webhooks/:id/zFqGH-sUopodedKV9e8DhHRkbyb0fic7onG_a1HW8Bwk2edaJ07zYYj6PT1_xqEFcpDe
+    Limit   : 5
+    Timeout : 2075ms
+    Sublimit: 2000ms
+[Wed, 16 Nov 2022 23:24:17 GMT] [DEBUG] Hit a 429 while executing a request.
+    Global  : false
+    Method  : post
+    Path    : /webhooks/1042580369033154641/CIs5P1JlTrKnEU8rtI9CKU7S6BP56u2oBfg_M6I3iJpdOSSauW-p3ImHPvO9oUfFnkmE?wait=true
+    Route   : /webhooks/:id/CIs5P1JlTrKnEU8rtI9CKU7S6BP56u2oBfg_M6I3iJpdOSSauW-p3ImHPvO9oUfFnkmE
+    Limit   : 5
+    Timeout : 1744ms
+    Sublimit: 2000ms
+[Wed, 16 Nov 2022 23:24:19 GMT] [DEBUG] Hit a 429 while executing a request.
+    Global  : false
+    Method  : post
+    Path    : /webhooks/1042580374754168935/zFqGH-sUopodedKV9e8DhHRkbyb0fic7onG_a1HW8Bwk2edaJ07zYYj6PT1_xqEFcpDe?wait=true
+    Route   : /webhooks/:id/zFqGH-sUopodedKV9e8DhHRkbyb0fic7onG_a1HW8Bwk2edaJ07zYYj6PT1_xqEFcpDe
+    Limit   : 5
+    Timeout : 1683ms
+    Sublimit: 2000ms
+[Wed, 16 Nov 2022 23:24:20 GMT] [DEBUG] Hit a 429 while executing a request.
+    Global  : false
+    Method  : post
+    Path    : /webhooks/1042580369033154641/CIs5P1JlTrKnEU8rtI9CKU7S6BP56u2oBfg_M6I3iJpdOSSauW-p3ImHPvO9oUfFnkmE?wait=true
+    Route   : /webhooks/:id/CIs5P1JlTrKnEU8rtI9CKU7S6BP56u2oBfg_M6I3iJpdOSSauW-p3ImHPvO9oUfFnkmE
+    Limit   : 5
+    Timeout : 2033ms
+    Sublimit: 2000ms
+[Wed, 16 Nov 2022 23:24:22 GMT] [DEBUG] Hit a 429 while executing a request.
+    Global  : false
+    Method  : post
+    Path    : /webhooks/1042580374754168935/zFqGH-sUopodedKV9e8DhHRkbyb0fic7onG_a1HW8Bwk2edaJ07zYYj6PT1_xqEFcpDe?wait=true
+    Route   : /webhooks/:id/zFqGH-sUopodedKV9e8DhHRkbyb0fic7onG_a1HW8Bwk2edaJ07zYYj6PT1_xqEFcpDe
+    Limit   : 5
+    Timeout : 2013ms
+    Sublimit: 2000ms
+[Wed, 16 Nov 2022 23:24:23 GMT] [DEBUG] Hit a 429 while executing a request.
+    Global  : false
+    Method  : post
+    Path    : /webhooks/1042580369033154641/CIs5P1JlTrKnEU8rtI9CKU7S6BP56u2oBfg_M6I3iJpdOSSauW-p3ImHPvO9oUfFnkmE?wait=true
+    Route   : /webhooks/:id/CIs5P1JlTrKnEU8rtI9CKU7S6BP56u2oBfg_M6I3iJpdOSSauW-p3ImHPvO9oUfFnkmE
+    Limit   : 5
+    Timeout : 1729ms
+    Sublimit: 2000ms
+[Wed, 16 Nov 2022 23:24:23 GMT] [DEBUG] [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+[Wed, 16 Nov 2022 23:24:23 GMT] [DEBUG] [WS => Shard 0] Heartbeat acknowledged, latency of 228ms.
+[Wed, 16 Nov 2022 23:24:25 GMT] [DEBUG] Hit a 429 while executing a request.
+    Global  : false
+    Method  : post
+    Path    : /webhooks/1042580374754168935/zFqGH-sUopodedKV9e8DhHRkbyb0fic7onG_a1HW8Bwk2edaJ07zYYj6PT1_xqEFcpDe?wait=true
+    Route   : /webhooks/:id/zFqGH-sUopodedKV9e8DhHRkbyb0fic7onG_a1HW8Bwk2edaJ07zYYj6PT1_xqEFcpDe
+    Limit   : 5
+    Timeout : 1777ms
+    Sublimit: 2000ms
+[Wed, 16 Nov 2022 23:24:27 GMT] [DEBUG] Hit a 429 while executing a request.
+    Global  : false
+    Method  : post
+    Path    : /webhooks/1042580369033154641/CIs5P1JlTrKnEU8rtI9CKU7S6BP56u2oBfg_M6I3iJpdOSSauW-p3ImHPvO9oUfFnkmE?wait=true
+    Route   : /webhooks/:id/CIs5P1JlTrKnEU8rtI9CKU7S6BP56u2oBfg_M6I3iJpdOSSauW-p3ImHPvO9oUfFnkmE
+    Limit   : 5
+    Timeout : 731ms
+    Sublimit: 1000ms
+[Wed, 16 Nov 2022 23:24:27 GMT] [DEBUG] Hit a 429 while executing a request.
+    Global  : false
+    Method  : post
+    Path    : /webhooks/1042580374754168935/zFqGH-sUopodedKV9e8DhHRkbyb0fic7onG_a1HW8Bwk2edaJ07zYYj6PT1_xqEFcpDe?wait=true
+    Route   : /webhooks/:id/zFqGH-sUopodedKV9e8DhHRkbyb0fic7onG_a1HW8Bwk2edaJ07zYYj6PT1_xqEFcpDe
+    Limit   : 5
+    Timeout : 2190ms
+    Sublimit: 2000ms
+[Wed, 16 Nov 2022 23:24:28 GMT] [DEBUG] Hit a 429 while executing a request.
+    Global  : false
+    Method  : post
+    Path    : /webhooks/1042580369033154641/CIs5P1JlTrKnEU8rtI9CKU7S6BP56u2oBfg_M6I3iJpdOSSauW-p3ImHPvO9oUfFnkmE?wait=true
+    Route   : /webhooks/:id/CIs5P1JlTrKnEU8rtI9CKU7S6BP56u2oBfg_M6I3iJpdOSSauW-p3ImHPvO9oUfFnkmE
+    Limit   : 5
+    Timeout : 2500ms
+    Sublimit: 2000ms
+[Wed, 16 Nov 2022 23:24:31 GMT] [DEBUG] Hit a 429 while executing a request.
+    Global  : false
+    Method  : post
+    Path    : /webhooks/1042580374754168935/zFqGH-sUopodedKV9e8DhHRkbyb0fic7onG_a1HW8Bwk2edaJ07zYYj6PT1_xqEFcpDe?wait=true
+    Route   : /webhooks/:id/zFqGH-sUopodedKV9e8DhHRkbyb0fic7onG_a1HW8Bwk2edaJ07zYYj6PT1_xqEFcpDe
+    Limit   : 5
+    Timeout : 1400ms
+    Sublimit: 1000ms
+[Wed, 16 Nov 2022 23:24:31 GMT] [DEBUG] Hit a 429 while executing a request.
+    Global  : false
+    Method  : post
+    Path    : /webhooks/1042580369033154641/CIs5P1JlTrKnEU8rtI9CKU7S6BP56u2oBfg_M6I3iJpdOSSauW-p3ImHPvO9oUfFnkmE?wait=true
+    Route   : /webhooks/:id/CIs5P1JlTrKnEU8rtI9CKU7S6BP56u2oBfg_M6I3iJpdOSSauW-p3ImHPvO9oUfFnkmE
+    Limit   : 5
+    Timeout : 1590ms
+    Sublimit: 2000ms
+[Wed, 16 Nov 2022 23:24:32 GMT] [DEBUG] Hit a 429 while executing a request.
+    Global  : false
+    Method  : post
+    Path    : /webhooks/1042580374754168935/zFqGH-sUopodedKV9e8DhHRkbyb0fic7onG_a1HW8Bwk2edaJ07zYYj6PT1_xqEFcpDe?wait=true
+    Route   : /webhooks/:id/zFqGH-sUopodedKV9e8DhHRkbyb0fic7onG_a1HW8Bwk2edaJ07zYYj6PT1_xqEFcpDe
+    Limit   : 5
+    Timeout : 2156ms
+    Sublimit: 2000ms
+[Wed, 16 Nov 2022 23:24:35 GMT] [DEBUG] Hit a 429 while executing a request.
+    Global  : false
+    Method  : post
+    Path    : /webhooks/1042580369033154641/CIs5P1JlTrKnEU8rtI9CKU7S6BP56u2oBfg_M6I3iJpdOSSauW-p3ImHPvO9oUfFnkmE?wait=true
+    Route   : /webhooks/:id/CIs5P1JlTrKnEU8rtI9CKU7S6BP56u2oBfg_M6I3iJpdOSSauW-p3ImHPvO9oUfFnkmE
+    Limit   : 5
+    Timeout : 1636ms
+    Sublimit: 2000ms
+[Wed, 16 Nov 2022 23:24:35 GMT] [DEBUG] Hit a 429 while executing a request.
+    Global  : false
+    Method  : post
+    Path    : /webhooks/1042580374754168935/zFqGH-sUopodedKV9e8DhHRkbyb0fic7onG_a1HW8Bwk2edaJ07zYYj6PT1_xqEFcpDe?wait=true
+    Route   : /webhooks/:id/zFqGH-sUopodedKV9e8DhHRkbyb0fic7onG_a1HW8Bwk2edaJ07zYYj6PT1_xqEFcpDe
+    Limit   : 5
+    Timeout : 2105ms
+    Sublimit: 2000ms
+[Wed, 16 Nov 2022 23:24:37 GMT] [DEBUG] Hit a 429 while executing a request.
+    Global  : false
+    Method  : post
+    Path    : /webhooks/1042580369033154641/CIs5P1JlTrKnEU8rtI9CKU7S6BP56u2oBfg_M6I3iJpdOSSauW-p3ImHPvO9oUfFnkmE?wait=true
+    Route   : /webhooks/:id/CIs5P1JlTrKnEU8rtI9CKU7S6BP56u2oBfg_M6I3iJpdOSSauW-p3ImHPvO9oUfFnkmE
+    Limit   : 5
+    Timeout : 2152ms
+    Sublimit: 2000ms
+[Wed, 16 Nov 2022 23:24:38 GMT] [DEBUG] Hit a 429 while executing a request.
+    Global  : false
+    Method  : post
+    Path    : /webhooks/1042580374754168935/zFqGH-sUopodedKV9e8DhHRkbyb0fic7onG_a1HW8Bwk2edaJ07zYYj6PT1_xqEFcpDe?wait=true
+    Route   : /webhooks/:id/zFqGH-sUopodedKV9e8DhHRkbyb0fic7onG_a1HW8Bwk2edaJ07zYYj6PT1_xqEFcpDe
+    Limit   : 5
+    Timeout : 1564ms
+    Sublimit: 2000ms
+[Wed, 16 Nov 2022 23:24:40 GMT] [DEBUG] Hit a 429 while executing a request.
+    Global  : false
+    Method  : post
+    Path    : /webhooks/1042580369033154641/CIs5P1JlTrKnEU8rtI9CKU7S6BP56u2oBfg_M6I3iJpdOSSauW-p3ImHPvO9oUfFnkmE?wait=true
+    Route   : /webhooks/:id/CIs5P1JlTrKnEU8rtI9CKU7S6BP56u2oBfg_M6I3iJpdOSSauW-p3ImHPvO9oUfFnkmE
+    Limit   : 5
+    Timeout : 2076ms
+    Sublimit: 2000ms
+[Wed, 16 Nov 2022 23:24:41 GMT] [DEBUG] Hit a 429 while executing a request.
+    Global  : false
+    Method  : post
+    Path    : /webhooks/1042580374754168935/zFqGH-sUopodedKV9e8DhHRkbyb0fic7onG_a1HW8Bwk2edaJ07zYYj6PT1_xqEFcpDe?wait=true
+    Route   : /webhooks/:id/zFqGH-sUopodedKV9e8DhHRkbyb0fic7onG_a1HW8Bwk2edaJ07zYYj6PT1_xqEFcpDe
+    Limit   : 5
+    Timeout : 2102ms
+    Sublimit: 2000ms
+[Wed, 16 Nov 2022 23:24:43 GMT] [DEBUG] Hit a 429 while executing a request.
+    Global  : false
+    Method  : post
+    Path    : /webhooks/1042580369033154641/CIs5P1JlTrKnEU8rtI9CKU7S6BP56u2oBfg_M6I3iJpdOSSauW-p3ImHPvO9oUfFnkmE?wait=true
+    Route   : /webhooks/:id/CIs5P1JlTrKnEU8rtI9CKU7S6BP56u2oBfg_M6I3iJpdOSSauW-p3ImHPvO9oUfFnkmE
+    Limit   : 5
+    Timeout : 1828ms
+    Sublimit: 2000ms
+[Wed, 16 Nov 2022 23:24:44 GMT] [DEBUG] Hit a 429 while executing a request.
+    Global  : false
+    Method  : post
+    Path    : /webhooks/1042580374754168935/zFqGH-sUopodedKV9e8DhHRkbyb0fic7onG_a1HW8Bwk2edaJ07zYYj6PT1_xqEFcpDe?wait=true
+    Route   : /webhooks/:id/zFqGH-sUopodedKV9e8DhHRkbyb0fic7onG_a1HW8Bwk2edaJ07zYYj6PT1_xqEFcpDe
+    Limit   : 5
+    Timeout : 1826ms
+    Sublimit: 2000ms
+[Wed, 16 Nov 2022 23:24:46 GMT] [DEBUG] Hit a 429 while executing a request.
+    Global  : false
+    Method  : post
+    Path    : /webhooks/1042580369033154641/CIs5P1JlTrKnEU8rtI9CKU7S6BP56u2oBfg_M6I3iJpdOSSauW-p3ImHPvO9oUfFnkmE?wait=true
+    Route   : /webhooks/:id/CIs5P1JlTrKnEU8rtI9CKU7S6BP56u2oBfg_M6I3iJpdOSSauW-p3ImHPvO9oUfFnkmE
+    Limit   : 5
+    Timeout : 2091ms
+    Sublimit: 2000ms
+[Wed, 16 Nov 2022 23:24:47 GMT] [DEBUG] Hit a 429 while executing a request.
+    Global  : false
+    Method  : post
+    Path    : /webhooks/1042580374754168935/zFqGH-sUopodedKV9e8DhHRkbyb0fic7onG_a1HW8Bwk2edaJ07zYYj6PT1_xqEFcpDe?wait=true
+    Route   : /webhooks/:id/zFqGH-sUopodedKV9e8DhHRkbyb0fic7onG_a1HW8Bwk2edaJ07zYYj6PT1_xqEFcpDe
+    Limit   : 5
+    Timeout : 2172ms
+    Sublimit: 2000ms
+[Wed, 16 Nov 2022 23:24:49 GMT] [DEBUG] Hit a 429 while executing a request.
+    Global  : false
+    Method  : post
+    Path    : /webhooks/1042580369033154641/CIs5P1JlTrKnEU8rtI9CKU7S6BP56u2oBfg_M6I3iJpdOSSauW-p3ImHPvO9oUfFnkmE?wait=true
+    Route   : /webhooks/:id/CIs5P1JlTrKnEU8rtI9CKU7S6BP56u2oBfg_M6I3iJpdOSSauW-p3ImHPvO9oUfFnkmE
+    Limit   : 5
+    Timeout : 1666ms
+    Sublimit: 2000ms
+[Wed, 16 Nov 2022 23:24:49 GMT] [DEBUG] Hit a 429 while executing a request.
+    Global  : false
+    Method  : post
+    Path    : /webhooks/1042580374754168935/zFqGH-sUopodedKV9e8DhHRkbyb0fic7onG_a1HW8Bwk2edaJ07zYYj6PT1_xqEFcpDe?wait=true
+    Route   : /webhooks/:id/zFqGH-sUopodedKV9e8DhHRkbyb0fic7onG_a1HW8Bwk2edaJ07zYYj6PT1_xqEFcpDe
+    Limit   : 5
+    Timeout : 2148ms
+    Sublimit: 2000ms
+[Wed, 16 Nov 2022 23:24:52 GMT] [DEBUG] Hit a 429 while executing a request.
+    Global  : false
+    Method  : post
+    Path    : /webhooks/1042580369033154641/CIs5P1JlTrKnEU8rtI9CKU7S6BP56u2oBfg_M6I3iJpdOSSauW-p3ImHPvO9oUfFnkmE?wait=true
+    Route   : /webhooks/:id/CIs5P1JlTrKnEU8rtI9CKU7S6BP56u2oBfg_M6I3iJpdOSSauW-p3ImHPvO9oUfFnkmE
+    Limit   : 5
+    Timeout : 2050ms
+    Sublimit: 2000ms
+[Wed, 16 Nov 2022 23:24:52 GMT] [DEBUG] Hit a 429 while executing a request.
+    Global  : false
+    Method  : post
+    Path    : /webhooks/1042580374754168935/zFqGH-sUopodedKV9e8DhHRkbyb0fic7onG_a1HW8Bwk2edaJ07zYYj6PT1_xqEFcpDe?wait=true
+    Route   : /webhooks/:id/zFqGH-sUopodedKV9e8DhHRkbyb0fic7onG_a1HW8Bwk2edaJ07zYYj6PT1_xqEFcpDe
+    Limit   : 5
+    Timeout : 1741ms
+    Sublimit: 2000ms
+[Wed, 16 Nov 2022 23:24:55 GMT] [DEBUG] Hit a 429 while executing a request.
+    Global  : false
+    Method  : post
+    Path    : /webhooks/1042580369033154641/CIs5P1JlTrKnEU8rtI9CKU7S6BP56u2oBfg_M6I3iJpdOSSauW-p3ImHPvO9oUfFnkmE?wait=true
+    Route   : /webhooks/:id/CIs5P1JlTrKnEU8rtI9CKU7S6BP56u2oBfg_M6I3iJpdOSSauW-p3ImHPvO9oUfFnkmE
+    Limit   : 5
+    Timeout : 1836ms
+    Sublimit: 2000ms
+[Wed, 16 Nov 2022 23:24:55 GMT] [DEBUG] Hit a 429 while executing a request.
+    Global  : false
+    Method  : post
+    Path    : /webhooks/1042580374754168935/zFqGH-sUopodedKV9e8DhHRkbyb0fic7onG_a1HW8Bwk2edaJ07zYYj6PT1_xqEFcpDe?wait=true
+    Route   : /webhooks/:id/zFqGH-sUopodedKV9e8DhHRkbyb0fic7onG_a1HW8Bwk2edaJ07zYYj6PT1_xqEFcpDe
+    Limit   : 5
+    Timeout : 2134ms
+    Sublimit: 2000ms
+[Wed, 16 Nov 2022 23:24:57 GMT] [DEBUG] Hit a 429 while executing a request.
+    Global  : false
+    Method  : post
+    Path    : /webhooks/1042580369033154641/CIs5P1JlTrKnEU8rtI9CKU7S6BP56u2oBfg_M6I3iJpdOSSauW-p3ImHPvO9oUfFnkmE?wait=true
+    Route   : /webhooks/:id/CIs5P1JlTrKnEU8rtI9CKU7S6BP56u2oBfg_M6I3iJpdOSSauW-p3ImHPvO9oUfFnkmE
+    Limit   : 5
+    Timeout : 2163ms
+    Sublimit: 2000ms
+[Wed, 16 Nov 2022 23:24:58 GMT] [DEBUG] Hit a 429 while executing a request.
+    Global  : false
+    Method  : post
+    Path    : /webhooks/1042580374754168935/zFqGH-sUopodedKV9e8DhHRkbyb0fic7onG_a1HW8Bwk2edaJ07zYYj6PT1_xqEFcpDe?wait=true
+    Route   : /webhooks/:id/zFqGH-sUopodedKV9e8DhHRkbyb0fic7onG_a1HW8Bwk2edaJ07zYYj6PT1_xqEFcpDe
+    Limit   : 5
+    Timeout : 1711ms
+    Sublimit: 2000ms
+[Wed, 16 Nov 2022 23:25:00 GMT] [DEBUG] Hit a 429 while executing a request.
+    Global  : false
+    Method  : post
+    Path    : /webhooks/1042580369033154641/CIs5P1JlTrKnEU8rtI9CKU7S6BP56u2oBfg_M6I3iJpdOSSauW-p3ImHPvO9oUfFnkmE?wait=true
+    Route   : /webhooks/:id/CIs5P1JlTrKnEU8rtI9CKU7S6BP56u2oBfg_M6I3iJpdOSSauW-p3ImHPvO9oUfFnkmE
+    Limit   : 5
+    Timeout : 2123ms
+    Sublimit: 2000ms
+[Wed, 16 Nov 2022 23:25:01 GMT] [DEBUG] Hit a 429 while executing a request.
+    Global  : false
+    Method  : post
+    Path    : /webhooks/1042580374754168935/zFqGH-sUopodedKV9e8DhHRkbyb0fic7onG_a1HW8Bwk2edaJ07zYYj6PT1_xqEFcpDe?wait=true
+    Route   : /webhooks/:id/zFqGH-sUopodedKV9e8DhHRkbyb0fic7onG_a1HW8Bwk2edaJ07zYYj6PT1_xqEFcpDe
+    Limit   : 5
+    Timeout : 2170ms
+    Sublimit: 2000ms
+[Wed, 16 Nov 2022 23:25:03 GMT] [DEBUG] Hit a 429 while executing a request.
+    Global  : false
+    Method  : post
+    Path    : /webhooks/1042580369033154641/CIs5P1JlTrKnEU8rtI9CKU7S6BP56u2oBfg_M6I3iJpdOSSauW-p3ImHPvO9oUfFnkmE?wait=true
+    Route   : /webhooks/:id/CIs5P1JlTrKnEU8rtI9CKU7S6BP56u2oBfg_M6I3iJpdOSSauW-p3ImHPvO9oUfFnkmE
+    Limit   : 5
+    Timeout : 1742ms
+    Sublimit: 2000ms
+[Wed, 16 Nov 2022 23:25:04 GMT] [DEBUG] Hit a 429 while executing a request.
+    Global  : false
+    Method  : post
+    Path    : /webhooks/1042580374754168935/zFqGH-sUopodedKV9e8DhHRkbyb0fic7onG_a1HW8Bwk2edaJ07zYYj6PT1_xqEFcpDe?wait=true
+    Route   : /webhooks/:id/zFqGH-sUopodedKV9e8DhHRkbyb0fic7onG_a1HW8Bwk2edaJ07zYYj6PT1_xqEFcpDe
+    Limit   : 5
+    Timeout : 2142ms
+    Sublimit: 2000ms
+[Wed, 16 Nov 2022 23:25:04 GMT] [DEBUG] [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+[Wed, 16 Nov 2022 23:25:05 GMT] [DEBUG] [WS => Shard 0] Heartbeat acknowledged, latency of 229ms.
+[Wed, 16 Nov 2022 23:25:06 GMT] [DEBUG] Hit a 429 while executing a request.
+    Global  : false
+    Method  : post
+    Path    : /webhooks/1042580369033154641/CIs5P1JlTrKnEU8rtI9CKU7S6BP56u2oBfg_M6I3iJpdOSSauW-p3ImHPvO9oUfFnkmE?wait=true
+    Route   : /webhooks/:id/CIs5P1JlTrKnEU8rtI9CKU7S6BP56u2oBfg_M6I3iJpdOSSauW-p3ImHPvO9oUfFnkmE
+    Limit   : 5
+    Timeout : 2145ms
+    Sublimit: 2000ms
+[Wed, 16 Nov 2022 23:25:07 GMT] [DEBUG] Hit a 429 while executing a request.
+    Global  : false
+    Method  : post
+    Path    : /webhooks/1042580374754168935/zFqGH-sUopodedKV9e8DhHRkbyb0fic7onG_a1HW8Bwk2edaJ07zYYj6PT1_xqEFcpDe?wait=true
+    Route   : /webhooks/:id/zFqGH-sUopodedKV9e8DhHRkbyb0fic7onG_a1HW8Bwk2edaJ07zYYj6PT1_xqEFcpDe
+    Limit   : 5
+    Timeout : 1666ms
+    Sublimit: 2000ms
+[Wed, 16 Nov 2022 23:25:09 GMT] [DEBUG] Hit a 429 while executing a request.
+    Global  : false
+    Method  : post
+    Path    : /webhooks/1042580369033154641/CIs5P1JlTrKnEU8rtI9CKU7S6BP56u2oBfg_M6I3iJpdOSSauW-p3ImHPvO9oUfFnkmE?wait=true
+    Route   : /webhooks/:id/CIs5P1JlTrKnEU8rtI9CKU7S6BP56u2oBfg_M6I3iJpdOSSauW-p3ImHPvO9oUfFnkmE
+    Limit   : 5
+    Timeout : 1738ms
+    Sublimit: 2000ms
+[Wed, 16 Nov 2022 23:25:09 GMT] [DEBUG] Hit a 429 while executing a request.
+    Global  : false
+    Method  : post
+    Path    : /webhooks/1042580374754168935/zFqGH-sUopodedKV9e8DhHRkbyb0fic7onG_a1HW8Bwk2edaJ07zYYj6PT1_xqEFcpDe?wait=true
+    Route   : /webhooks/:id/zFqGH-sUopodedKV9e8DhHRkbyb0fic7onG_a1HW8Bwk2edaJ07zYYj6PT1_xqEFcpDe
+    Limit   : 5
+    Timeout : 2133ms
+    Sublimit: 2000ms
+[Wed, 16 Nov 2022 23:25:12 GMT] [DEBUG] Hit a 429 while executing a request.
+    Global  : false
+    Method  : post
+    Path    : /webhooks/1042580369033154641/CIs5P1JlTrKnEU8rtI9CKU7S6BP56u2oBfg_M6I3iJpdOSSauW-p3ImHPvO9oUfFnkmE?wait=true
+    Route   : /webhooks/:id/CIs5P1JlTrKnEU8rtI9CKU7S6BP56u2oBfg_M6I3iJpdOSSauW-p3ImHPvO9oUfFnkmE
+    Limit   : 5
+    Timeout : 2160ms
+    Sublimit: 2000ms
+[Wed, 16 Nov 2022 23:25:12 GMT] [DEBUG] Hit a 429 while executing a request.
+    Global  : false
+    Method  : post
+    Path    : /webhooks/1042580374754168935/zFqGH-sUopodedKV9e8DhHRkbyb0fic7onG_a1HW8Bwk2edaJ07zYYj6PT1_xqEFcpDe?wait=true
+    Route   : /webhooks/:id/zFqGH-sUopodedKV9e8DhHRkbyb0fic7onG_a1HW8Bwk2edaJ07zYYj6PT1_xqEFcpDe
+    Limit   : 5
+    Timeout : 1816ms
+    Sublimit: 2000ms
+[Wed, 16 Nov 2022 23:25:15 GMT] [DEBUG] Hit a 429 while executing a request.
+    Global  : false
+    Method  : post
+    Path    : /webhooks/1042580369033154641/CIs5P1JlTrKnEU8rtI9CKU7S6BP56u2oBfg_M6I3iJpdOSSauW-p3ImHPvO9oUfFnkmE?wait=true
+    Route   : /webhooks/:id/CIs5P1JlTrKnEU8rtI9CKU7S6BP56u2oBfg_M6I3iJpdOSSauW-p3ImHPvO9oUfFnkmE
+    Limit   : 5
+    Timeout : 1790ms
+    Sublimit: 2000ms
+[Wed, 16 Nov 2022 23:25:15 GMT] [DEBUG] Hit a 429 while executing a request.
+    Global  : false
+    Method  : post
+    Path    : /webhooks/1042580374754168935/zFqGH-sUopodedKV9e8DhHRkbyb0fic7onG_a1HW8Bwk2edaJ07zYYj6PT1_xqEFcpDe?wait=true
+    Route   : /webhooks/:id/zFqGH-sUopodedKV9e8DhHRkbyb0fic7onG_a1HW8Bwk2edaJ07zYYj6PT1_xqEFcpDe
+    Limit   : 5
+    Timeout : 2074ms
+    Sublimit: 2000ms
+[Wed, 16 Nov 2022 23:25:17 GMT] [DEBUG] Hit a 429 while executing a request.
+    Global  : false
+    Method  : post
+    Path    : /webhooks/1042580369033154641/CIs5P1JlTrKnEU8rtI9CKU7S6BP56u2oBfg_M6I3iJpdOSSauW-p3ImHPvO9oUfFnkmE?wait=true
+    Route   : /webhooks/:id/CIs5P1JlTrKnEU8rtI9CKU7S6BP56u2oBfg_M6I3iJpdOSSauW-p3ImHPvO9oUfFnkmE
+    Limit   : 5
+    Timeout : 2116ms
+    Sublimit: 2000ms
+[Wed, 16 Nov 2022 23:25:18 GMT] [DEBUG] Hit a 429 while executing a request.
+    Global  : false
+    Method  : post
+    Path    : /webhooks/1042580374754168935/zFqGH-sUopodedKV9e8DhHRkbyb0fic7onG_a1HW8Bwk2edaJ07zYYj6PT1_xqEFcpDe?wait=true
+    Route   : /webhooks/:id/zFqGH-sUopodedKV9e8DhHRkbyb0fic7onG_a1HW8Bwk2edaJ07zYYj6PT1_xqEFcpDe
+    Limit   : 5
+    Timeout : 1602ms
+    Sublimit: 2000ms
+[Wed, 16 Nov 2022 23:25:20 GMT] [DEBUG] Hit a 429 while executing a request.
+    Global  : false
+    Method  : post
+    Path    : /webhooks/1042580369033154641/CIs5P1JlTrKnEU8rtI9CKU7S6BP56u2oBfg_M6I3iJpdOSSauW-p3ImHPvO9oUfFnkmE?wait=true
+    Route   : /webhooks/:id/CIs5P1JlTrKnEU8rtI9CKU7S6BP56u2oBfg_M6I3iJpdOSSauW-p3ImHPvO9oUfFnkmE
+    Limit   : 5
+    Timeout : 2140ms
+    Sublimit: 2000ms
+[Wed, 16 Nov 2022 23:25:21 GMT] [DEBUG] Hit a 429 while executing a request.
+    Global  : false
+    Method  : post
+    Path    : /webhooks/1042580374754168935/zFqGH-sUopodedKV9e8DhHRkbyb0fic7onG_a1HW8Bwk2edaJ07zYYj6PT1_xqEFcpDe?wait=true
+    Route   : /webhooks/:id/zFqGH-sUopodedKV9e8DhHRkbyb0fic7onG_a1HW8Bwk2edaJ07zYYj6PT1_xqEFcpDe
+    Limit   : 5
+    Timeout : 2113ms
+    Sublimit: 2000ms
+[Wed, 16 Nov 2022 23:25:23 GMT] [DEBUG] Hit a 429 while executing a request.
+    Global  : false
+    Method  : post
+    Path    : /webhooks/1042580369033154641/CIs5P1JlTrKnEU8rtI9CKU7S6BP56u2oBfg_M6I3iJpdOSSauW-p3ImHPvO9oUfFnkmE?wait=true
+    Route   : /webhooks/:id/CIs5P1JlTrKnEU8rtI9CKU7S6BP56u2oBfg_M6I3iJpdOSSauW-p3ImHPvO9oUfFnkmE
+    Limit   : 5
+    Timeout : 1590ms
+    Sublimit: 2000ms
+[Wed, 16 Nov 2022 23:25:24 GMT] [DEBUG] Hit a 429 while executing a request.
+    Global  : false
+    Method  : post
+    Path    : /webhooks/1042580374754168935/zFqGH-sUopodedKV9e8DhHRkbyb0fic7onG_a1HW8Bwk2edaJ07zYYj6PT1_xqEFcpDe?wait=true
+    Route   : /webhooks/:id/zFqGH-sUopodedKV9e8DhHRkbyb0fic7onG_a1HW8Bwk2edaJ07zYYj6PT1_xqEFcpDe
+    Limit   : 5
+    Timeout : 1696ms
+    Sublimit: 2000ms
+[Wed, 16 Nov 2022 23:25:26 GMT] [DEBUG] Hit a 429 while executing a request.
+    Global  : false
+    Method  : post
+    Path    : /webhooks/1042580369033154641/CIs5P1JlTrKnEU8rtI9CKU7S6BP56u2oBfg_M6I3iJpdOSSauW-p3ImHPvO9oUfFnkmE?wait=true
+    Route   : /webhooks/:id/CIs5P1JlTrKnEU8rtI9CKU7S6BP56u2oBfg_M6I3iJpdOSSauW-p3ImHPvO9oUfFnkmE
+    Limit   : 5
+    Timeout : 2125ms
+    Sublimit: 2000ms
+[Wed, 16 Nov 2022 23:25:27 GMT] [DEBUG] Hit a 429 while executing a request.
+    Global  : false
+    Method  : post
+    Path    : /webhooks/1042580374754168935/zFqGH-sUopodedKV9e8DhHRkbyb0fic7onG_a1HW8Bwk2edaJ07zYYj6PT1_xqEFcpDe?wait=true
+    Route   : /webhooks/:id/zFqGH-sUopodedKV9e8DhHRkbyb0fic7onG_a1HW8Bwk2edaJ07zYYj6PT1_xqEFcpDe
+    Limit   : 5
+    Timeout : 2146ms
+    Sublimit: 2000ms
+[Wed, 16 Nov 2022 23:25:29 GMT] [DEBUG] Hit a 429 while executing a request.
+    Global  : false
+    Method  : post
+    Path    : /webhooks/1042580369033154641/CIs5P1JlTrKnEU8rtI9CKU7S6BP56u2oBfg_M6I3iJpdOSSauW-p3ImHPvO9oUfFnkmE?wait=true
+    Route   : /webhooks/:id/CIs5P1JlTrKnEU8rtI9CKU7S6BP56u2oBfg_M6I3iJpdOSSauW-p3ImHPvO9oUfFnkmE
+    Limit   : 5
+    Timeout : 1685ms
+    Sublimit: 2000ms
+[Wed, 16 Nov 2022 23:25:30 GMT] [DEBUG] Hit a 429 while executing a request.
+    Global  : false
+    Method  : post
+    Path    : /webhooks/1042580374754168935/zFqGH-sUopodedKV9e8DhHRkbyb0fic7onG_a1HW8Bwk2edaJ07zYYj6PT1_xqEFcpDe?wait=true
+    Route   : /webhooks/:id/zFqGH-sUopodedKV9e8DhHRkbyb0fic7onG_a1HW8Bwk2edaJ07zYYj6PT1_xqEFcpDe
+    Limit   : 5
+    Timeout : 2080ms
+    Sublimit: 2000ms
+[Wed, 16 Nov 2022 23:25:32 GMT] [DEBUG] Hit a 429 while executing a request.
+    Global  : false
+    Method  : post
+    Path    : /webhooks/1042580369033154641/CIs5P1JlTrKnEU8rtI9CKU7S6BP56u2oBfg_M6I3iJpdOSSauW-p3ImHPvO9oUfFnkmE?wait=true
+    Route   : /webhooks/:id/CIs5P1JlTrKnEU8rtI9CKU7S6BP56u2oBfg_M6I3iJpdOSSauW-p3ImHPvO9oUfFnkmE
+    Limit   : 5
+    Timeout : 2121ms
+    Sublimit: 2000ms
+[Wed, 16 Nov 2022 23:25:33 GMT] [DEBUG] Hit a 429 while executing a request.
+    Global  : false
+    Method  : post
+    Path    : /webhooks/1042580374754168935/zFqGH-sUopodedKV9e8DhHRkbyb0fic7onG_a1HW8Bwk2edaJ07zYYj6PT1_xqEFcpDe?wait=true
+    Route   : /webhooks/:id/zFqGH-sUopodedKV9e8DhHRkbyb0fic7onG_a1HW8Bwk2edaJ07zYYj6PT1_xqEFcpDe
+    Limit   : 5
+    Timeout : 1755ms
+    Sublimit: 2000ms
+[Wed, 16 Nov 2022 23:25:35 GMT] [DEBUG] Hit a 429 while executing a request.
+    Global  : false
+    Method  : post
+    Path    : /webhooks/1042580369033154641/CIs5P1JlTrKnEU8rtI9CKU7S6BP56u2oBfg_M6I3iJpdOSSauW-p3ImHPvO9oUfFnkmE?wait=true
+    Route   : /webhooks/:id/CIs5P1JlTrKnEU8rtI9CKU7S6BP56u2oBfg_M6I3iJpdOSSauW-p3ImHPvO9oUfFnkmE
+    Limit   : 5
+    Timeout : 1776ms
+    Sublimit: 2000ms
+[Wed, 16 Nov 2022 23:25:35 GMT] [DEBUG] Hit a 429 while executing a request.
+    Global  : false
+    Method  : post
+    Path    : /webhooks/1042580374754168935/zFqGH-sUopodedKV9e8DhHRkbyb0fic7onG_a1HW8Bwk2edaJ07zYYj6PT1_xqEFcpDe?wait=true
+    Route   : /webhooks/:id/zFqGH-sUopodedKV9e8DhHRkbyb0fic7onG_a1HW8Bwk2edaJ07zYYj6PT1_xqEFcpDe
+    Limit   : 5
+    Timeout : 2054ms
+    Sublimit: 2000ms
+[Wed, 16 Nov 2022 23:25:38 GMT] [DEBUG] Hit a 429 while executing a request.
+    Global  : false
+    Method  : post
+    Path    : /webhooks/1042580369033154641/CIs5P1JlTrKnEU8rtI9CKU7S6BP56u2oBfg_M6I3iJpdOSSauW-p3ImHPvO9oUfFnkmE?wait=true
+    Route   : /webhooks/:id/CIs5P1JlTrKnEU8rtI9CKU7S6BP56u2oBfg_M6I3iJpdOSSauW-p3ImHPvO9oUfFnkmE
+    Limit   : 5
+    Timeout : 2158ms
+    Sublimit: 2000ms
+[Wed, 16 Nov 2022 23:25:38 GMT] [DEBUG] Hit a 429 while executing a request.
+    Global  : false
+    Method  : post
+    Path    : /webhooks/1042580374754168935/zFqGH-sUopodedKV9e8DhHRkbyb0fic7onG_a1HW8Bwk2edaJ07zYYj6PT1_xqEFcpDe?wait=true
+    Route   : /webhooks/:id/zFqGH-sUopodedKV9e8DhHRkbyb0fic7onG_a1HW8Bwk2edaJ07zYYj6PT1_xqEFcpDe
+    Limit   : 5
+    Timeout : 1727ms
+    Sublimit: 2000ms
+[Wed, 16 Nov 2022 23:25:41 GMT] [DEBUG] Hit a 429 while executing a request.
+    Global  : false
+    Method  : post
+    Path    : /webhooks/1042580369033154641/CIs5P1JlTrKnEU8rtI9CKU7S6BP56u2oBfg_M6I3iJpdOSSauW-p3ImHPvO9oUfFnkmE?wait=true
+    Route   : /webhooks/:id/CIs5P1JlTrKnEU8rtI9CKU7S6BP56u2oBfg_M6I3iJpdOSSauW-p3ImHPvO9oUfFnkmE
+    Limit   : 5
+    Timeout : 1598ms
+    Sublimit: 2000ms
+[Wed, 16 Nov 2022 23:25:41 GMT] [DEBUG] Hit a 429 while executing a request.
+    Global  : false
+    Method  : post
+    Path    : /webhooks/1042580374754168935/zFqGH-sUopodedKV9e8DhHRkbyb0fic7onG_a1HW8Bwk2edaJ07zYYj6PT1_xqEFcpDe?wait=true
+    Route   : /webhooks/:id/zFqGH-sUopodedKV9e8DhHRkbyb0fic7onG_a1HW8Bwk2edaJ07zYYj6PT1_xqEFcpDe
+    Limit   : 5
+    Timeout : 2159ms
+    Sublimit: 2000ms
+[Wed, 16 Nov 2022 23:25:44 GMT] [DEBUG] Hit a 429 while executing a request.
+    Global  : false
+    Method  : post
+    Path    : /webhooks/1042580369033154641/CIs5P1JlTrKnEU8rtI9CKU7S6BP56u2oBfg_M6I3iJpdOSSauW-p3ImHPvO9oUfFnkmE?wait=true
+    Route   : /webhooks/:id/CIs5P1JlTrKnEU8rtI9CKU7S6BP56u2oBfg_M6I3iJpdOSSauW-p3ImHPvO9oUfFnkmE
+    Limit   : 5
+    Timeout : 2013ms
+    Sublimit: 2000ms
+[Wed, 16 Nov 2022 23:25:44 GMT] [DEBUG] Hit a 429 while executing a request.
+    Global  : false
+    Method  : post
+    Path    : /webhooks/1042580374754168935/zFqGH-sUopodedKV9e8DhHRkbyb0fic7onG_a1HW8Bwk2edaJ07zYYj6PT1_xqEFcpDe?wait=true
+    Route   : /webhooks/:id/zFqGH-sUopodedKV9e8DhHRkbyb0fic7onG_a1HW8Bwk2edaJ07zYYj6PT1_xqEFcpDe
+    Limit   : 5
+    Timeout : 1764ms
+    Sublimit: 2000ms
+[Wed, 16 Nov 2022 23:25:46 GMT] [DEBUG] [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+[Wed, 16 Nov 2022 23:25:46 GMT] [DEBUG] [WS => Shard 0] Heartbeat acknowledged, latency of 225ms.
+[Wed, 16 Nov 2022 23:25:47 GMT] [DEBUG] Hit a 429 while executing a request.
+    Global  : false
+    Method  : post
+    Path    : /webhooks/1042580369033154641/CIs5P1JlTrKnEU8rtI9CKU7S6BP56u2oBfg_M6I3iJpdOSSauW-p3ImHPvO9oUfFnkmE?wait=true
+    Route   : /webhooks/:id/CIs5P1JlTrKnEU8rtI9CKU7S6BP56u2oBfg_M6I3iJpdOSSauW-p3ImHPvO9oUfFnkmE
+    Limit   : 5
+    Timeout : 1675ms
+    Sublimit: 2000ms
+[Wed, 16 Nov 2022 23:25:47 GMT] [DEBUG] Hit a 429 while executing a request.
+    Global  : false
+    Method  : post
+    Path    : /webhooks/1042580374754168935/zFqGH-sUopodedKV9e8DhHRkbyb0fic7onG_a1HW8Bwk2edaJ07zYYj6PT1_xqEFcpDe?wait=true
+    Route   : /webhooks/:id/zFqGH-sUopodedKV9e8DhHRkbyb0fic7onG_a1HW8Bwk2edaJ07zYYj6PT1_xqEFcpDe
+    Limit   : 5
+    Timeout : 1478ms
+    Sublimit: 1000ms
+[Wed, 16 Nov 2022 23:25:49 GMT] [DEBUG] Hit a 429 while executing a request.
+    Global  : false
+    Method  : post
+    Path    : /webhooks/1042580374754168935/zFqGH-sUopodedKV9e8DhHRkbyb0fic7onG_a1HW8Bwk2edaJ07zYYj6PT1_xqEFcpDe?wait=true
+    Route   : /webhooks/:id/zFqGH-sUopodedKV9e8DhHRkbyb0fic7onG_a1HW8Bwk2edaJ07zYYj6PT1_xqEFcpDe
+    Limit   : 5
+    Timeout : 2104ms
+    Sublimit: 2000ms
+[Wed, 16 Nov 2022 23:25:49 GMT] [DEBUG] Hit a 429 while executing a request.
+    Global  : false
+    Method  : post
+    Path    : /webhooks/1042580369033154641/CIs5P1JlTrKnEU8rtI9CKU7S6BP56u2oBfg_M6I3iJpdOSSauW-p3ImHPvO9oUfFnkmE?wait=true
+    Route   : /webhooks/:id/CIs5P1JlTrKnEU8rtI9CKU7S6BP56u2oBfg_M6I3iJpdOSSauW-p3ImHPvO9oUfFnkmE
+    Limit   : 5
+    Timeout : 2159ms
+    Sublimit: 2000ms
+[Wed, 16 Nov 2022 23:25:52 GMT] [DEBUG] Hit a 429 while executing a request.
+    Global  : false
+    Method  : post
+    Path    : /webhooks/1042580369033154641/CIs5P1JlTrKnEU8rtI9CKU7S6BP56u2oBfg_M6I3iJpdOSSauW-p3ImHPvO9oUfFnkmE?wait=true
+    Route   : /webhooks/:id/CIs5P1JlTrKnEU8rtI9CKU7S6BP56u2oBfg_M6I3iJpdOSSauW-p3ImHPvO9oUfFnkmE
+    Limit   : 5
+    Timeout : 2112ms
+    Sublimit: 2000ms
+[Wed, 16 Nov 2022 23:25:52 GMT] [DEBUG] Hit a 429 while executing a request.
+    Global  : false
+    Method  : post
+    Path    : /webhooks/1042580374754168935/zFqGH-sUopodedKV9e8DhHRkbyb0fic7onG_a1HW8Bwk2edaJ07zYYj6PT1_xqEFcpDe?wait=true
+    Route   : /webhooks/:id/zFqGH-sUopodedKV9e8DhHRkbyb0fic7onG_a1HW8Bwk2edaJ07zYYj6PT1_xqEFcpDe
+    Limit   : 5
+    Timeout : 1724ms
+    Sublimit: 2000ms
+[Wed, 16 Nov 2022 23:25:55 GMT] [DEBUG] Hit a 429 while executing a request.
+    Global  : false
+    Method  : post
+    Path    : /webhooks/1042580374754168935/zFqGH-sUopodedKV9e8DhHRkbyb0fic7onG_a1HW8Bwk2edaJ07zYYj6PT1_xqEFcpDe?wait=true
+    Route   : /webhooks/:id/zFqGH-sUopodedKV9e8DhHRkbyb0fic7onG_a1HW8Bwk2edaJ07zYYj6PT1_xqEFcpDe
+    Limit   : 5
+    Timeout : 2139ms
+    Sublimit: 2000ms
+[Wed, 16 Nov 2022 23:25:55 GMT] [DEBUG] Hit a 429 while executing a request.
+    Global  : false
+    Method  : post
+    Path    : /webhooks/1042580369033154641/CIs5P1JlTrKnEU8rtI9CKU7S6BP56u2oBfg_M6I3iJpdOSSauW-p3ImHPvO9oUfFnkmE?wait=true
+    Route   : /webhooks/:id/CIs5P1JlTrKnEU8rtI9CKU7S6BP56u2oBfg_M6I3iJpdOSSauW-p3ImHPvO9oUfFnkmE
+    Limit   : 5
+    Timeout : 1730ms
+    Sublimit: 2000ms
+[Wed, 16 Nov 2022 23:25:58 GMT] [DEBUG] Hit a 429 while executing a request.
+    Global  : false
+    Method  : post
+    Path    : /webhooks/1042580374754168935/zFqGH-sUopodedKV9e8DhHRkbyb0fic7onG_a1HW8Bwk2edaJ07zYYj6PT1_xqEFcpDe?wait=true
+    Route   : /webhooks/:id/zFqGH-sUopodedKV9e8DhHRkbyb0fic7onG_a1HW8Bwk2edaJ07zYYj6PT1_xqEFcpDe
+    Limit   : 5
+    Timeout : 2171ms
+    Sublimit: 2000ms
+[Wed, 16 Nov 2022 23:25:58 GMT] [DEBUG] Hit a 429 while executing a request.
+    Global  : false
+    Method  : post
+    Path    : /webhooks/1042580369033154641/CIs5P1JlTrKnEU8rtI9CKU7S6BP56u2oBfg_M6I3iJpdOSSauW-p3ImHPvO9oUfFnkmE?wait=true
+    Route   : /webhooks/:id/CIs5P1JlTrKnEU8rtI9CKU7S6BP56u2oBfg_M6I3iJpdOSSauW-p3ImHPvO9oUfFnkmE
+    Limit   : 5
+    Timeout : 2047ms
+    Sublimit: 2000ms
+[Wed, 16 Nov 2022 23:26:01 GMT] [DEBUG] Hit a 429 while executing a request.
+    Global  : false
+    Method  : post
+    Path    : /webhooks/1042580374754168935/zFqGH-sUopodedKV9e8DhHRkbyb0fic7onG_a1HW8Bwk2edaJ07zYYj6PT1_xqEFcpDe?wait=true
+    Route   : /webhooks/:id/zFqGH-sUopodedKV9e8DhHRkbyb0fic7onG_a1HW8Bwk2edaJ07zYYj6PT1_xqEFcpDe
+    Limit   : 5
+    Timeout : 1557ms
+    Sublimit: 2000ms
+[Wed, 16 Nov 2022 23:26:01 GMT] [DEBUG] Hit a 429 while executing a request.
+    Global  : false
+    Method  : post
+    Path    : /webhooks/1042580369033154641/CIs5P1JlTrKnEU8rtI9CKU7S6BP56u2oBfg_M6I3iJpdOSSauW-p3ImHPvO9oUfFnkmE?wait=true
+    Route   : /webhooks/:id/CIs5P1JlTrKnEU8rtI9CKU7S6BP56u2oBfg_M6I3iJpdOSSauW-p3ImHPvO9oUfFnkmE
+    Limit   : 5
+    Timeout : 1703ms
+    Sublimit: 2000ms
+[Wed, 16 Nov 2022 23:26:03 GMT] [DEBUG] Hit a 429 while executing a request.
+    Global  : false
+    Method  : post
+    Path    : /webhooks/1042580374754168935/zFqGH-sUopodedKV9e8DhHRkbyb0fic7onG_a1HW8Bwk2edaJ07zYYj6PT1_xqEFcpDe?wait=true
+    Route   : /webhooks/:id/zFqGH-sUopodedKV9e8DhHRkbyb0fic7onG_a1HW8Bwk2edaJ07zYYj6PT1_xqEFcpDe
+    Limit   : 5
+    Timeout : 2179ms
+    Sublimit: 2000ms
+[Wed, 16 Nov 2022 23:26:04 GMT] [DEBUG] Hit a 429 while executing a request.
+    Global  : false
+    Method  : post
+    Path    : /webhooks/1042580369033154641/CIs5P1JlTrKnEU8rtI9CKU7S6BP56u2oBfg_M6I3iJpdOSSauW-p3ImHPvO9oUfFnkmE?wait=true
+    Route   : /webhooks/:id/CIs5P1JlTrKnEU8rtI9CKU7S6BP56u2oBfg_M6I3iJpdOSSauW-p3ImHPvO9oUfFnkmE
+    Limit   : 5
+    Timeout : 1975ms
+    Sublimit: 2000ms
+[Wed, 16 Nov 2022 23:26:07 GMT] [DEBUG] Hit a 429 while executing a request.
+    Global  : false
+    Method  : post
+    Path    : /webhooks/1042580374754168935/zFqGH-sUopodedKV9e8DhHRkbyb0fic7onG_a1HW8Bwk2edaJ07zYYj6PT1_xqEFcpDe?wait=true
+    Route   : /webhooks/:id/zFqGH-sUopodedKV9e8DhHRkbyb0fic7onG_a1HW8Bwk2edaJ07zYYj6PT1_xqEFcpDe
+    Limit   : 5
+    Timeout : 1626ms
+    Sublimit: 2000ms
+[Wed, 16 Nov 2022 23:26:07 GMT] [DEBUG] Hit a 429 while executing a request.
+    Global  : false
+    Method  : post
+    Path    : /webhooks/1042580369033154641/CIs5P1JlTrKnEU8rtI9CKU7S6BP56u2oBfg_M6I3iJpdOSSauW-p3ImHPvO9oUfFnkmE?wait=true
+    Route   : /webhooks/:id/CIs5P1JlTrKnEU8rtI9CKU7S6BP56u2oBfg_M6I3iJpdOSSauW-p3ImHPvO9oUfFnkmE
+    Limit   : 5
+    Timeout : 1840ms
+    Sublimit: 2000ms
+[Wed, 16 Nov 2022 23:26:09 GMT] [DEBUG] Hit a 429 while executing a request.
+    Global  : false
+    Method  : post
+    Path    : /webhooks/1042580374754168935/zFqGH-sUopodedKV9e8DhHRkbyb0fic7onG_a1HW8Bwk2edaJ07zYYj6PT1_xqEFcpDe?wait=true
+    Route   : /webhooks/:id/zFqGH-sUopodedKV9e8DhHRkbyb0fic7onG_a1HW8Bwk2edaJ07zYYj6PT1_xqEFcpDe
+    Limit   : 5
+    Timeout : 2082ms
+    Sublimit: 2000ms
+[Wed, 16 Nov 2022 23:26:10 GMT] [DEBUG] Hit a 429 while executing a request.
+    Global  : false
+    Method  : post
+    Path    : /webhooks/1042580369033154641/CIs5P1JlTrKnEU8rtI9CKU7S6BP56u2oBfg_M6I3iJpdOSSauW-p3ImHPvO9oUfFnkmE?wait=true
+    Route   : /webhooks/:id/CIs5P1JlTrKnEU8rtI9CKU7S6BP56u2oBfg_M6I3iJpdOSSauW-p3ImHPvO9oUfFnkmE
+    Limit   : 5
+    Timeout : 2122ms
+    Sublimit: 2000ms
+[Wed, 16 Nov 2022 23:26:12 GMT] [DEBUG] Hit a 429 while executing a request.
+    Global  : false
+    Method  : post
+    Path    : /webhooks/1042580374754168935/zFqGH-sUopodedKV9e8DhHRkbyb0fic7onG_a1HW8Bwk2edaJ07zYYj6PT1_xqEFcpDe?wait=true
+    Route   : /webhooks/:id/zFqGH-sUopodedKV9e8DhHRkbyb0fic7onG_a1HW8Bwk2edaJ07zYYj6PT1_xqEFcpDe
+    Limit   : 5
+    Timeout : 1778ms
+    Sublimit: 2000ms
+[Wed, 16 Nov 2022 23:26:13 GMT] [DEBUG] Hit a 429 while executing a request.
+    Global  : false
+    Method  : post
+    Path    : /webhooks/1042580369033154641/CIs5P1JlTrKnEU8rtI9CKU7S6BP56u2oBfg_M6I3iJpdOSSauW-p3ImHPvO9oUfFnkmE?wait=true
+    Route   : /webhooks/:id/CIs5P1JlTrKnEU8rtI9CKU7S6BP56u2oBfg_M6I3iJpdOSSauW-p3ImHPvO9oUfFnkmE
+    Limit   : 5
+    Timeout : 1648ms
+    Sublimit: 2000ms
+[Wed, 16 Nov 2022 23:26:15 GMT] [DEBUG] Hit a 429 while executing a request.
+    Global  : false
+    Method  : post
+    Path    : /webhooks/1042580374754168935/zFqGH-sUopodedKV9e8DhHRkbyb0fic7onG_a1HW8Bwk2edaJ07zYYj6PT1_xqEFcpDe?wait=true
+    Route   : /webhooks/:id/zFqGH-sUopodedKV9e8DhHRkbyb0fic7onG_a1HW8Bwk2edaJ07zYYj6PT1_xqEFcpDe
+    Limit   : 5
+    Timeout : 2134ms
+    Sublimit: 2000ms
+[Wed, 16 Nov 2022 23:26:15 GMT] [DEBUG] Hit a 429 while executing a request.
+    Global  : false
+    Method  : post
+    Path    : /webhooks/1042580369033154641/CIs5P1JlTrKnEU8rtI9CKU7S6BP56u2oBfg_M6I3iJpdOSSauW-p3ImHPvO9oUfFnkmE?wait=true
+    Route   : /webhooks/:id/CIs5P1JlTrKnEU8rtI9CKU7S6BP56u2oBfg_M6I3iJpdOSSauW-p3ImHPvO9oUfFnkmE
+    Limit   : 5
+    Timeout : 2173ms
+    Sublimit: 2000ms
+[Wed, 16 Nov 2022 23:26:18 GMT] [DEBUG] Hit a 429 while executing a request.
+    Global  : false
+    Method  : post
+    Path    : /webhooks/1042580374754168935/zFqGH-sUopodedKV9e8DhHRkbyb0fic7onG_a1HW8Bwk2edaJ07zYYj6PT1_xqEFcpDe?wait=true
+    Route   : /webhooks/:id/zFqGH-sUopodedKV9e8DhHRkbyb0fic7onG_a1HW8Bwk2edaJ07zYYj6PT1_xqEFcpDe
+    Limit   : 5
+    Timeout : 1812ms
+    Sublimit: 2000ms
+[Wed, 16 Nov 2022 23:26:18 GMT] [DEBUG] Hit a 429 while executing a request.
+    Global  : false
+    Method  : post
+    Path    : /webhooks/1042580369033154641/CIs5P1JlTrKnEU8rtI9CKU7S6BP56u2oBfg_M6I3iJpdOSSauW-p3ImHPvO9oUfFnkmE?wait=true
+    Route   : /webhooks/:id/CIs5P1JlTrKnEU8rtI9CKU7S6BP56u2oBfg_M6I3iJpdOSSauW-p3ImHPvO9oUfFnkmE
+    Limit   : 5
+    Timeout : 2159ms
+    Sublimit: 2000ms
+[Wed, 16 Nov 2022 23:26:21 GMT] [DEBUG] Hit a 429 while executing a request.
+    Global  : false
+    Method  : post
+    Path    : /webhooks/1042580374754168935/zFqGH-sUopodedKV9e8DhHRkbyb0fic7onG_a1HW8Bwk2edaJ07zYYj6PT1_xqEFcpDe?wait=true
+    Route   : /webhooks/:id/zFqGH-sUopodedKV9e8DhHRkbyb0fic7onG_a1HW8Bwk2edaJ07zYYj6PT1_xqEFcpDe
+    Limit   : 5
+    Timeout : 2171ms
+    Sublimit: 2000ms
+[Wed, 16 Nov 2022 23:26:21 GMT] [DEBUG] Hit a 429 while executing a request.
+    Global  : false
+    Method  : post
+    Path    : /webhooks/1042580369033154641/CIs5P1JlTrKnEU8rtI9CKU7S6BP56u2oBfg_M6I3iJpdOSSauW-p3ImHPvO9oUfFnkmE?wait=true
+    Route   : /webhooks/:id/CIs5P1JlTrKnEU8rtI9CKU7S6BP56u2oBfg_M6I3iJpdOSSauW-p3ImHPvO9oUfFnkmE
+    Limit   : 5
+    Timeout : 1618ms
+    Sublimit: 2000ms
+[Wed, 16 Nov 2022 23:26:23 GMT] [DEBUG] Hit a 429 while executing a request.
+    Global  : false
+    Method  : post
+    Path    : /webhooks/1042580374754168935/zFqGH-sUopodedKV9e8DhHRkbyb0fic7onG_a1HW8Bwk2edaJ07zYYj6PT1_xqEFcpDe?wait=true
+    Route   : /webhooks/:id/zFqGH-sUopodedKV9e8DhHRkbyb0fic7onG_a1HW8Bwk2edaJ07zYYj6PT1_xqEFcpDe
+    Limit   : 5
+    Timeout : 2113ms
+    Sublimit: 2000ms
+[Wed, 16 Nov 2022 23:26:24 GMT] [DEBUG] Hit a 429 while executing a request.
+    Global  : false
+    Method  : post
+    Path    : /webhooks/1042580369033154641/CIs5P1JlTrKnEU8rtI9CKU7S6BP56u2oBfg_M6I3iJpdOSSauW-p3ImHPvO9oUfFnkmE?wait=true
+    Route   : /webhooks/:id/CIs5P1JlTrKnEU8rtI9CKU7S6BP56u2oBfg_M6I3iJpdOSSauW-p3ImHPvO9oUfFnkmE
+    Limit   : 5
+    Timeout : 2114ms
+    Sublimit: 2000ms
+[Wed, 16 Nov 2022 23:26:27 GMT] [DEBUG] Hit a 429 while executing a request.
+    Global  : false
+    Method  : post
+    Path    : /webhooks/1042580374754168935/zFqGH-sUopodedKV9e8DhHRkbyb0fic7onG_a1HW8Bwk2edaJ07zYYj6PT1_xqEFcpDe?wait=true
+    Route   : /webhooks/:id/zFqGH-sUopodedKV9e8DhHRkbyb0fic7onG_a1HW8Bwk2edaJ07zYYj6PT1_xqEFcpDe
+    Limit   : 5
+    Timeout : 1606ms
+    Sublimit: 2000ms
+[Wed, 16 Nov 2022 23:26:27 GMT] [DEBUG] [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+[Wed, 16 Nov 2022 23:26:27 GMT] [DEBUG] [WS => Shard 0] Heartbeat acknowledged, latency of 225ms.
+[Wed, 16 Nov 2022 23:26:27 GMT] [DEBUG] Hit a 429 while executing a request.
+    Global  : false
+    Method  : post
+    Path    : /webhooks/1042580369033154641/CIs5P1JlTrKnEU8rtI9CKU7S6BP56u2oBfg_M6I3iJpdOSSauW-p3ImHPvO9oUfFnkmE?wait=true
+    Route   : /webhooks/:id/CIs5P1JlTrKnEU8rtI9CKU7S6BP56u2oBfg_M6I3iJpdOSSauW-p3ImHPvO9oUfFnkmE
+    Limit   : 5
+    Timeout : 1780ms
+    Sublimit: 2000ms
+[Wed, 16 Nov 2022 23:26:29 GMT] [DEBUG] Hit a 429 while executing a request.
+    Global  : false
+    Method  : post
+    Path    : /webhooks/1042580374754168935/zFqGH-sUopodedKV9e8DhHRkbyb0fic7onG_a1HW8Bwk2edaJ07zYYj6PT1_xqEFcpDe?wait=true
+    Route   : /webhooks/:id/zFqGH-sUopodedKV9e8DhHRkbyb0fic7onG_a1HW8Bwk2edaJ07zYYj6PT1_xqEFcpDe
+    Limit   : 5
+    Timeout : 2163ms
+    Sublimit: 2000ms
+[Wed, 16 Nov 2022 23:26:30 GMT] [DEBUG] Hit a 429 while executing a request.
+    Global  : false
+    Method  : post
+    Path    : /webhooks/1042580369033154641/CIs5P1JlTrKnEU8rtI9CKU7S6BP56u2oBfg_M6I3iJpdOSSauW-p3ImHPvO9oUfFnkmE?wait=true
+    Route   : /webhooks/:id/CIs5P1JlTrKnEU8rtI9CKU7S6BP56u2oBfg_M6I3iJpdOSSauW-p3ImHPvO9oUfFnkmE
+    Limit   : 5
+    Timeout : 1746ms
+    Sublimit: 2000ms
+[Wed, 16 Nov 2022 23:26:32 GMT] [DEBUG] Hit a 429 while executing a request.
+    Global  : false
+    Method  : post
+    Path    : /webhooks/1042580374754168935/zFqGH-sUopodedKV9e8DhHRkbyb0fic7onG_a1HW8Bwk2edaJ07zYYj6PT1_xqEFcpDe?wait=true
+    Route   : /webhooks/:id/zFqGH-sUopodedKV9e8DhHRkbyb0fic7onG_a1HW8Bwk2edaJ07zYYj6PT1_xqEFcpDe
+    Limit   : 5
+    Timeout : 1742ms
+    Sublimit: 2000ms
+[Wed, 16 Nov 2022 23:26:33 GMT] [DEBUG] Hit a 429 while executing a request.
+    Global  : false
+    Method  : post
+    Path    : /webhooks/1042580369033154641/CIs5P1JlTrKnEU8rtI9CKU7S6BP56u2oBfg_M6I3iJpdOSSauW-p3ImHPvO9oUfFnkmE?wait=true
+    Route   : /webhooks/:id/CIs5P1JlTrKnEU8rtI9CKU7S6BP56u2oBfg_M6I3iJpdOSSauW-p3ImHPvO9oUfFnkmE
+    Limit   : 5
+    Timeout : 1831ms
+    Sublimit: 2000ms
+[Wed, 16 Nov 2022 23:26:35 GMT] [DEBUG] Hit a 429 while executing a request.
+    Global  : false
+    Method  : post
+    Path    : /webhooks/1042580374754168935/zFqGH-sUopodedKV9e8DhHRkbyb0fic7onG_a1HW8Bwk2edaJ07zYYj6PT1_xqEFcpDe?wait=true
+    Route   : /webhooks/:id/zFqGH-sUopodedKV9e8DhHRkbyb0fic7onG_a1HW8Bwk2edaJ07zYYj6PT1_xqEFcpDe
+    Limit   : 5
+    Timeout : 2067ms
+    Sublimit: 2000ms
+[Wed, 16 Nov 2022 23:26:36 GMT] [DEBUG] Hit a 429 while executing a request.
+    Global  : false
+    Method  : post
+    Path    : /webhooks/1042580369033154641/CIs5P1JlTrKnEU8rtI9CKU7S6BP56u2oBfg_M6I3iJpdOSSauW-p3ImHPvO9oUfFnkmE?wait=true
+    Route   : /webhooks/:id/CIs5P1JlTrKnEU8rtI9CKU7S6BP56u2oBfg_M6I3iJpdOSSauW-p3ImHPvO9oUfFnkmE
+    Limit   : 5
+    Timeout : 2151ms
+    Sublimit: 2000ms
+[Wed, 16 Nov 2022 23:26:38 GMT] [DEBUG] Hit a 429 while executing a request.
+    Global  : false
+    Method  : post
+    Path    : /webhooks/1042580374754168935/zFqGH-sUopodedKV9e8DhHRkbyb0fic7onG_a1HW8Bwk2edaJ07zYYj6PT1_xqEFcpDe?wait=true
+    Route   : /webhooks/:id/zFqGH-sUopodedKV9e8DhHRkbyb0fic7onG_a1HW8Bwk2edaJ07zYYj6PT1_xqEFcpDe
+    Limit   : 5
+    Timeout : 1754ms
+    Sublimit: 2000ms
+[Wed, 16 Nov 2022 23:26:41 GMT] [DEBUG] Hit a 429 while executing a request.
+    Global  : false
+    Method  : post
+    Path    : /webhooks/1042580374754168935/zFqGH-sUopodedKV9e8DhHRkbyb0fic7onG_a1HW8Bwk2edaJ07zYYj6PT1_xqEFcpDe?wait=true
+    Route   : /webhooks/:id/zFqGH-sUopodedKV9e8DhHRkbyb0fic7onG_a1HW8Bwk2edaJ07zYYj6PT1_xqEFcpDe
+    Limit   : 5
+    Timeout : 2130ms
+    Sublimit: 2000ms
+[Wed, 16 Nov 2022 23:26:44 GMT] [DEBUG] Hit a 429 while executing a request.
+    Global  : false
+    Method  : post
+    Path    : /webhooks/1042580374754168935/zFqGH-sUopodedKV9e8DhHRkbyb0fic7onG_a1HW8Bwk2edaJ07zYYj6PT1_xqEFcpDe?wait=true
+    Route   : /webhooks/:id/zFqGH-sUopodedKV9e8DhHRkbyb0fic7onG_a1HW8Bwk2edaJ07zYYj6PT1_xqEFcpDe
+    Limit   : 5
+    Timeout : 1688ms
+    Sublimit: 2000ms
+[Wed, 16 Nov 2022 23:26:47 GMT] [DEBUG] Hit a 429 while executing a request.
+    Global  : false
+    Method  : post
+    Path    : /webhooks/1042580374754168935/zFqGH-sUopodedKV9e8DhHRkbyb0fic7onG_a1HW8Bwk2edaJ07zYYj6PT1_xqEFcpDe?wait=true
+    Route   : /webhooks/:id/zFqGH-sUopodedKV9e8DhHRkbyb0fic7onG_a1HW8Bwk2edaJ07zYYj6PT1_xqEFcpDe
+    Limit   : 5
+    Timeout : 2055ms
+    Sublimit: 2000ms
+[Wed, 16 Nov 2022 23:26:49 GMT] [DEBUG] Hit a 429 while executing a request.
+    Global  : false
+    Method  : post
+    Path    : /webhooks/1042580374754168935/zFqGH-sUopodedKV9e8DhHRkbyb0fic7onG_a1HW8Bwk2edaJ07zYYj6PT1_xqEFcpDe?wait=true
+    Route   : /webhooks/:id/zFqGH-sUopodedKV9e8DhHRkbyb0fic7onG_a1HW8Bwk2edaJ07zYYj6PT1_xqEFcpDe
+    Limit   : 5
+    Timeout : 2161ms
+    Sublimit: 2000ms
+[Wed, 16 Nov 2022 23:27:08 GMT] [DEBUG] [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+[Wed, 16 Nov 2022 23:27:08 GMT] [DEBUG] [WS => Shard 0] Heartbeat acknowledged, latency of 225ms.
+[Wed, 16 Nov 2022 23:27:49 GMT] [DEBUG] [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+[Wed, 16 Nov 2022 23:27:50 GMT] [DEBUG] [WS => Shard 0] Heartbeat acknowledged, latency of 225ms.
+[Wed, 16 Nov 2022 23:28:31 GMT] [DEBUG] [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+[Wed, 16 Nov 2022 23:28:31 GMT] [DEBUG] [WS => Shard 0] Heartbeat acknowledged, latency of 225ms.
+[Wed, 16 Nov 2022 23:29:12 GMT] [DEBUG] [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+[Wed, 16 Nov 2022 23:29:12 GMT] [DEBUG] [WS => Shard 0] Heartbeat acknowledged, latency of 227ms.
+[Wed, 16 Nov 2022 23:29:53 GMT] [DEBUG] [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+[Wed, 16 Nov 2022 23:29:53 GMT] [DEBUG] [WS => Shard 0] Heartbeat acknowledged, latency of 225ms.
+[Wed, 16 Nov 2022 23:30:34 GMT] [DEBUG] [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+[Wed, 16 Nov 2022 23:30:35 GMT] [DEBUG] [WS => Shard 0] Heartbeat acknowledged, latency of 225ms.
+[Wed, 16 Nov 2022 23:31:16 GMT] [DEBUG] [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+[Wed, 16 Nov 2022 23:31:16 GMT] [DEBUG] [WS => Shard 0] Heartbeat acknowledged, latency of 226ms.
+[Wed, 16 Nov 2022 23:31:57 GMT] [DEBUG] [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+[Wed, 16 Nov 2022 23:31:57 GMT] [DEBUG] [WS => Shard 0] Heartbeat acknowledged, latency of 225ms.
+[Wed, 16 Nov 2022 23:32:38 GMT] [DEBUG] [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+[Wed, 16 Nov 2022 23:32:38 GMT] [DEBUG] [WS => Shard 0] Heartbeat acknowledged, latency of 227ms.
+[Wed, 16 Nov 2022 23:33:19 GMT] [DEBUG] [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+[Wed, 16 Nov 2022 23:33:20 GMT] [DEBUG] [WS => Shard 0] Heartbeat acknowledged, latency of 232ms.
+[Wed, 16 Nov 2022 23:34:01 GMT] [DEBUG] [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+[Wed, 16 Nov 2022 23:34:01 GMT] [DEBUG] [WS => Shard 0] Heartbeat acknowledged, latency of 225ms.
+[Wed, 16 Nov 2022 23:34:42 GMT] [DEBUG] [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+[Wed, 16 Nov 2022 23:34:42 GMT] [DEBUG] [WS => Shard 0] Heartbeat acknowledged, latency of 227ms.
+[Wed, 16 Nov 2022 23:35:23 GMT] [DEBUG] [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+[Wed, 16 Nov 2022 23:35:23 GMT] [DEBUG] [WS => Shard 0] Heartbeat acknowledged, latency of 225ms.
+[Wed, 16 Nov 2022 23:36:04 GMT] [DEBUG] [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+[Wed, 16 Nov 2022 23:36:05 GMT] [DEBUG] [WS => Shard 0] Heartbeat acknowledged, latency of 229ms.
+[Wed, 16 Nov 2022 23:36:46 GMT] [DEBUG] [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+[Wed, 16 Nov 2022 23:36:46 GMT] [DEBUG] [WS => Shard 0] Heartbeat acknowledged, latency of 225ms.
+[Wed, 16 Nov 2022 23:37:27 GMT] [DEBUG] [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+[Wed, 16 Nov 2022 23:37:27 GMT] [DEBUG] [WS => Shard 0] Heartbeat acknowledged, latency of 227ms.
+[Wed, 16 Nov 2022 23:38:08 GMT] [DEBUG] [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+[Wed, 16 Nov 2022 23:38:08 GMT] [DEBUG] [WS => Shard 0] Heartbeat acknowledged, latency of 226ms.
+[Wed, 16 Nov 2022 23:38:49 GMT] [DEBUG] [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+[Wed, 16 Nov 2022 23:38:50 GMT] [DEBUG] [WS => Shard 0] Heartbeat acknowledged, latency of 225ms.
+[Wed, 16 Nov 2022 23:39:31 GMT] [DEBUG] [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+[Wed, 16 Nov 2022 23:39:31 GMT] [DEBUG] [WS => Shard 0] Heartbeat acknowledged, latency of 226ms.
+[Wed, 16 Nov 2022 23:40:12 GMT] [DEBUG] [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+[Wed, 16 Nov 2022 23:40:12 GMT] [DEBUG] [WS => Shard 0] Heartbeat acknowledged, latency of 226ms.
+[Wed, 16 Nov 2022 23:40:53 GMT] [DEBUG] [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+[Wed, 16 Nov 2022 23:40:53 GMT] [DEBUG] [WS => Shard 0] Heartbeat acknowledged, latency of 226ms.
+[Wed, 16 Nov 2022 23:41:34 GMT] [DEBUG] [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+[Wed, 16 Nov 2022 23:41:35 GMT] [DEBUG] [WS => Shard 0] Heartbeat acknowledged, latency of 254ms.
+[Wed, 16 Nov 2022 23:42:16 GMT] [DEBUG] [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+[Wed, 16 Nov 2022 23:42:16 GMT] [DEBUG] [WS => Shard 0] Heartbeat acknowledged, latency of 225ms.
+[Wed, 16 Nov 2022 23:42:57 GMT] [DEBUG] [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+[Wed, 16 Nov 2022 23:42:57 GMT] [DEBUG] [WS => Shard 0] Heartbeat acknowledged, latency of 235ms.
+[Wed, 16 Nov 2022 23:43:38 GMT] [DEBUG] [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+[Wed, 16 Nov 2022 23:43:38 GMT] [DEBUG] [WS => Shard 0] Heartbeat acknowledged, latency of 227ms.
+[Wed, 16 Nov 2022 23:44:19 GMT] [DEBUG] [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+[Wed, 16 Nov 2022 23:44:20 GMT] [DEBUG] [WS => Shard 0] Heartbeat acknowledged, latency of 252ms.
+[Wed, 16 Nov 2022 23:45:01 GMT] [DEBUG] [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+[Wed, 16 Nov 2022 23:45:01 GMT] [DEBUG] [WS => Shard 0] Heartbeat acknowledged, latency of 229ms.
+[Wed, 16 Nov 2022 23:45:42 GMT] [DEBUG] [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+[Wed, 16 Nov 2022 23:45:42 GMT] [DEBUG] [WS => Shard 0] Heartbeat acknowledged, latency of 229ms.
+[Wed, 16 Nov 2022 23:46:23 GMT] [DEBUG] [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+[Wed, 16 Nov 2022 23:46:23 GMT] [DEBUG] [WS => Shard 0] Heartbeat acknowledged, latency of 225ms.
+[Wed, 16 Nov 2022 23:47:05 GMT] [DEBUG] [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+[Wed, 16 Nov 2022 23:47:05 GMT] [DEBUG] [WS => Shard 0] Heartbeat acknowledged, latency of 225ms.
+[Wed, 16 Nov 2022 23:47:46 GMT] [DEBUG] [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+[Wed, 16 Nov 2022 23:47:46 GMT] [DEBUG] [WS => Shard 0] Heartbeat acknowledged, latency of 226ms.
+[Wed, 16 Nov 2022 23:48:27 GMT] [DEBUG] [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+[Wed, 16 Nov 2022 23:48:27 GMT] [DEBUG] [WS => Shard 0] Heartbeat acknowledged, latency of 423ms.
+[Wed, 16 Nov 2022 23:49:08 GMT] [DEBUG] [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+[Wed, 16 Nov 2022 23:49:09 GMT] [DEBUG] [WS => Shard 0] Heartbeat acknowledged, latency of 225ms.
+[Wed, 16 Nov 2022 23:49:50 GMT] [DEBUG] [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+[Wed, 16 Nov 2022 23:49:50 GMT] [DEBUG] [WS => Shard 0] Heartbeat acknowledged, latency of 228ms.
+[Wed, 16 Nov 2022 23:50:31 GMT] [DEBUG] [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+[Wed, 16 Nov 2022 23:50:31 GMT] [DEBUG] [WS => Shard 0] Heartbeat acknowledged, latency of 230ms.
+[Wed, 16 Nov 2022 23:51:12 GMT] [DEBUG] [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+[Wed, 16 Nov 2022 23:51:12 GMT] [DEBUG] [WS => Shard 0] Heartbeat acknowledged, latency of 225ms.
+[Wed, 16 Nov 2022 23:51:53 GMT] [DEBUG] [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+[Wed, 16 Nov 2022 23:51:54 GMT] [DEBUG] [WS => Shard 0] Heartbeat acknowledged, latency of 225ms.
+[Wed, 16 Nov 2022 23:52:35 GMT] [DEBUG] [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+[Wed, 16 Nov 2022 23:52:35 GMT] [DEBUG] [WS => Shard 0] Heartbeat acknowledged, latency of 226ms.
+[Wed, 16 Nov 2022 23:53:16 GMT] [DEBUG] [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+[Wed, 16 Nov 2022 23:53:16 GMT] [DEBUG] [WS => Shard 0] Heartbeat acknowledged, latency of 225ms.
+[Wed, 16 Nov 2022 23:53:57 GMT] [DEBUG] [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+[Wed, 16 Nov 2022 23:53:57 GMT] [DEBUG] [WS => Shard 0] Heartbeat acknowledged, latency of 225ms.
+[Wed, 16 Nov 2022 23:54:21 GMT] [DEBUG] [WS => Shard 0] [RECONNECT] Discord asked us to reconnect
+[Wed, 16 Nov 2022 23:54:21 GMT] [DEBUG] [WS => Shard 0] [DESTROY]
+    Close Code    : 4000
+    Reset         : false
+    Emit DESTROYED: true
+[Wed, 16 Nov 2022 23:54:21 GMT] [DEBUG] [WS => Shard 0] Clearing the heartbeat interval.
+[Wed, 16 Nov 2022 23:54:21 GMT] [DEBUG] [WS => Shard 0] [WebSocket] Destroy: Attempting to close the WebSocket. | WS State: OPEN
+[Wed, 16 Nov 2022 23:54:21 GMT] [DEBUG] [WS => Shard 0] [WebSocket] Close: Tried closing. | WS State: CLOSING
+[Wed, 16 Nov 2022 23:54:21 GMT] [DEBUG] [WS => Shard 0] [WebSocket] Adding a WebSocket close timeout to ensure a correct WS reconnect.
+        Timeout: 5000ms
+[Wed, 16 Nov 2022 23:54:21 GMT] [DEBUG] [WS => Shard 0] [WebSocket] Clearing the close timeout.
+[Wed, 16 Nov 2022 23:54:21 GMT] [DEBUG] [WS => Shard 0] [CLOSE]
+    Event Code: 4000
+    Clean     : true
+    Reason    : 
+[Wed, 16 Nov 2022 23:54:21 GMT] [DEBUG] [WS => Shard 0] Session id is present, attempting an immediate reconnect...
+[Wed, 16 Nov 2022 23:54:21 GMT] [DEBUG] [WS => Shard 0] [CONNECT]
+    Gateway    : wss://gateway.discord.gg/
+    Version    : 9
+    Encoding   : json
+    Compression: none
+[Wed, 16 Nov 2022 23:54:21 GMT] [DEBUG] [WS => Shard 0] Setting a HELLO timeout for 20s.
+[Wed, 16 Nov 2022 23:54:22 GMT] [DEBUG] [WS => Shard 0] [CONNECTED] Took 357ms
+[Wed, 16 Nov 2022 23:54:22 GMT] [DEBUG] [WS => Shard 0] Clearing the HELLO timeout.
+[Wed, 16 Nov 2022 23:54:22 GMT] [DEBUG] [WS => Shard 0] Setting a heartbeat interval for 41250ms.
+[Wed, 16 Nov 2022 23:54:22 GMT] [DEBUG] [WS => Shard 0] [RESUME] Session 498981a5431cc0ca9690c79c33c37321, sequence 1062
+[Wed, 16 Nov 2022 23:54:22 GMT] [DEBUG] [WS => Shard 0] [RESUMED] Session 498981a5431cc0ca9690c79c33c37321 | Replayed 1 events.
+[Wed, 16 Nov 2022 23:54:22 GMT] [DEBUG] [WS => Shard 0] [ResumeHeartbeat] Sending a heartbeat.
+[Wed, 16 Nov 2022 23:54:22 GMT] [DEBUG] [WS => Shard 0] Heartbeat acknowledged, latency of 234ms.
+[Wed, 16 Nov 2022 23:55:03 GMT] [DEBUG] [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+[Wed, 16 Nov 2022 23:55:03 GMT] [DEBUG] [WS => Shard 0] Heartbeat acknowledged, latency of 232ms.
+[Thu, 17 Nov 2022 02:55:37 GMT] [DEBUG] [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+[Thu, 17 Nov 2022 02:55:37 GMT] [DEBUG] [WS => Shard 0] Clearing the heartbeat interval.
+[Thu, 17 Nov 2022 02:55:37 GMT] [DEBUG] [WS => Shard 0] [WebSocket] Destroy: Attempting to close the WebSocket. | WS State: CLOSED
+[Thu, 17 Nov 2022 02:55:37 GMT] [DEBUG] [WS => Shard 0] WS State: CLOSED
+[Thu, 17 Nov 2022 02:55:37 GMT] [DEBUG] [WS => Shard 0] [WebSocket] Adding a WebSocket close timeout to ensure a correct WS reconnect.
+        Timeout: 5000ms
+[Thu, 17 Nov 2022 02:55:37 GMT] [DEBUG] [WS => Shard 0] [CLOSE]
+    Event Code: 1006
+    Clean     : false
+    Reason    : 
+[Thu, 17 Nov 2022 02:55:37 GMT] [DEBUG] [WS => Shard 0] Session id is present, attempting an immediate reconnect...
+[Thu, 17 Nov 2022 02:55:37 GMT] [DEBUG] [WS => Shard 0] [CONNECT]
+    Gateway    : wss://gateway.discord.gg/
+    Version    : 9
+    Encoding   : json
+    Compression: none
+[Thu, 17 Nov 2022 02:55:37 GMT] [DEBUG] [WS => Shard 0] Setting a HELLO timeout for 20s.
+[Thu, 17 Nov 2022 02:55:37 GMT] [DEBUG] [WS => Shard 0] [WebSocket] Clearing the close timeout.
+[Thu, 17 Nov 2022 02:55:37 GMT] [DEBUG] [WS => Shard 0] Clearing the HELLO timeout.
+[Thu, 17 Nov 2022 02:55:37 GMT] [DEBUG] [WS => Shard 0] [WebSocket] Destroy: Attempting to close the WebSocket. | WS State: CLOSED
+[Thu, 17 Nov 2022 02:55:37 GMT] [DEBUG] [WS => Shard 0] WS State: CLOSED
+[Thu, 17 Nov 2022 02:55:37 GMT] [DEBUG] [WS => Shard 0] [WebSocket] Adding a WebSocket close timeout to ensure a correct WS reconnect.
+        Timeout: 5000ms
+[Thu, 17 Nov 2022 02:55:37 GMT] [DEBUG] [WS => Shard 0] [CLOSE]
+    Event Code: 1006
+    Clean     : false
+    Reason    : 
+[Thu, 17 Nov 2022 02:55:37 GMT] [DEBUG] [WS => Shard 0] Session id is present, attempting an immediate reconnect...
+[Thu, 17 Nov 2022 02:55:37 GMT] [DEBUG] [WS => Shard 0] Failed to connect to the gateway, requeueing...
+[Thu, 17 Nov 2022 02:55:37 GMT] [DEBUG] [WS => Manager] Shard Queue Size: 1; continuing in 5 seconds...
+[Thu, 17 Nov 2022 02:55:42 GMT] [DEBUG] [WS => Shard 0] [WebSocket] Clearing the close timeout.
+[Thu, 17 Nov 2022 02:55:42 GMT] [DEBUG] [WS => Shard 0] [WebSocket] Close Emitted: false
+[Thu, 17 Nov 2022 02:55:42 GMT] [DEBUG] [WS => Shard 0] [WebSocket] did not close properly, assuming a zombie connection.
+Emitting close and reconnecting again.
+[Thu, 17 Nov 2022 02:55:42 GMT] [DEBUG] [WS => Shard 0] [CLOSE]
+    Event Code: 1011
+    Clean     : false
+    Reason    : INTERNAL_ERROR
+[Thu, 17 Nov 2022 02:55:42 GMT] [DEBUG] [WS => Shard 0] Session id is present, attempting an immediate reconnect...
+[Thu, 17 Nov 2022 02:55:42 GMT] [DEBUG] [WS => Shard 0] [CONNECT]
+    Gateway    : wss://gateway.discord.gg/
+    Version    : 9
+    Encoding   : json
+    Compression: none
+[Thu, 17 Nov 2022 02:55:42 GMT] [DEBUG] [WS => Shard 0] Setting a HELLO timeout for 20s.
+[Thu, 17 Nov 2022 02:55:43 GMT] [DEBUG] [WS => Shard 0] [CONNECTED] Took 786ms
+[Thu, 17 Nov 2022 02:55:43 GMT] [DEBUG] [WS => Shard 0] Clearing the HELLO timeout.
+[Thu, 17 Nov 2022 02:55:43 GMT] [DEBUG] [WS => Shard 0] Setting a heartbeat interval for 41250ms.
+[Thu, 17 Nov 2022 02:55:43 GMT] [DEBUG] [WS => Shard 0] [RESUME] Session 498981a5431cc0ca9690c79c33c37321, sequence 1064
+[Thu, 17 Nov 2022 02:55:43 GMT] [DEBUG] [WS => Shard 0] [INVALID SESSION] Resumable: false.
+[Thu, 17 Nov 2022 02:55:43 GMT] [DEBUG] [WS => Shard 0] Failed to connect to the gateway, requeueing...
+[Thu, 17 Nov 2022 02:55:43 GMT] [DEBUG] [WS => Manager] Shard Queue Size: 1; continuing in 5 seconds...
+[Thu, 17 Nov 2022 03:38:02 GMT] [DEBUG] [WS => Shard 0] An open connection was found, attempting an immediate identify.
+[Thu, 17 Nov 2022 03:38:02 GMT] [DEBUG] [WS => Shard 0] [IDENTIFY] Shard 0/1 with intents: 515
+[Thu, 17 Nov 2022 03:38:02 GMT] [DEBUG] [WS => Shard 0] [HeartbeatTimer] Didn't process heartbeat ack yet but we are still connected. Sending one now.
+[Thu, 17 Nov 2022 03:38:02 GMT] [DEBUG] [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+[Thu, 17 Nov 2022 03:38:02 GMT] [DEBUG] [WS => Shard 0] Clearing the heartbeat interval.
+[Thu, 17 Nov 2022 03:38:02 GMT] [DEBUG] [WS => Shard 0] [WebSocket] Destroy: Attempting to close the WebSocket. | WS State: CLOSED
+[Thu, 17 Nov 2022 03:38:02 GMT] [DEBUG] [WS => Shard 0] WS State: CLOSED
+[Thu, 17 Nov 2022 03:38:02 GMT] [DEBUG] [WS => Shard 0] [WebSocket] Adding a WebSocket close timeout to ensure a correct WS reconnect.
+        Timeout: 5000ms
+[Thu, 17 Nov 2022 03:38:02 GMT] [DEBUG] [WS => Shard 0] [CLOSE]
+    Event Code: 1006
+    Clean     : false
+    Reason    : 
+[Thu, 17 Nov 2022 03:38:02 GMT] [DEBUG] [WS => Shard 0] Failed to connect to the gateway, requeueing...
+[Thu, 17 Nov 2022 03:38:02 GMT] [DEBUG] [WS => Manager] Shard Queue Size: 1; continuing in 5 seconds...
+[Thu, 17 Nov 2022 03:38:07 GMT] [DEBUG] [WS => Shard 0] [WebSocket] Clearing the close timeout.
+[Thu, 17 Nov 2022 03:38:07 GMT] [DEBUG] [WS => Shard 0] [WebSocket] Close Emitted: false
+[Thu, 17 Nov 2022 03:38:07 GMT] [DEBUG] [WS => Shard 0] [WebSocket] did not close properly, assuming a zombie connection.
+Emitting close and reconnecting again.
+[Thu, 17 Nov 2022 03:38:07 GMT] [DEBUG] [WS => Shard 0] [CLOSE]
+    Event Code: 1011
+    Clean     : false
+    Reason    : INTERNAL_ERROR
+[Thu, 17 Nov 2022 03:38:07 GMT] [DEBUG] [WS => Shard 0] [CONNECT]
+    Gateway    : wss://gateway.discord.gg/
+    Version    : 9
+    Encoding   : json
+    Compression: none
+[Thu, 17 Nov 2022 03:38:07 GMT] [DEBUG] [WS => Shard 0] Setting a HELLO timeout for 20s.
+[Thu, 17 Nov 2022 03:38:08 GMT] [DEBUG] [WS => Shard 0] [CONNECTED] Took 1047ms
+[Thu, 17 Nov 2022 03:38:08 GMT] [DEBUG] [WS => Shard 0] Clearing the HELLO timeout.
+[Thu, 17 Nov 2022 03:38:08 GMT] [DEBUG] [WS => Shard 0] Setting a heartbeat interval for 41250ms.
+[Thu, 17 Nov 2022 03:38:08 GMT] [DEBUG] [WS => Shard 0] [IDENTIFY] Shard 0/1 with intents: 515
+[Thu, 17 Nov 2022 03:38:09 GMT] [DEBUG] [WS => Shard 0] [READY] Session 6ed4a73676a14c6ca934e25f0f2daeaf.
+[Thu, 17 Nov 2022 03:38:09 GMT] [DEBUG] [WS => Shard 0] [ReadyHeartbeat] Sending a heartbeat.
+[Thu, 17 Nov 2022 03:38:09 GMT] [DEBUG] [WS => Shard 0] Shard received all its guilds. Marking as fully ready.
+[Thu, 17 Nov 2022 03:38:09 GMT] [DEBUG] [WS => Shard 0] Heartbeat acknowledged, latency of 226ms.
+[Thu, 17 Nov 2022 03:38:49 GMT] [DEBUG] [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+[Thu, 17 Nov 2022 03:38:50 GMT] [DEBUG] [WS => Shard 0] Heartbeat acknowledged, latency of 233ms.
+[Thu, 17 Nov 2022 03:39:31 GMT] [DEBUG] [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+[Thu, 17 Nov 2022 03:39:31 GMT] [DEBUG] [WS => Shard 0] Heartbeat acknowledged, latency of 228ms.
+[Thu, 17 Nov 2022 03:40:12 GMT] [DEBUG] [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+[Thu, 17 Nov 2022 03:40:12 GMT] [DEBUG] [WS => Shard 0] Heartbeat acknowledged, latency of 293ms.
+[Thu, 17 Nov 2022 03:40:53 GMT] [DEBUG] [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+[Thu, 17 Nov 2022 03:40:53 GMT] [DEBUG] [WS => Shard 0] Heartbeat acknowledged, latency of 226ms.
+[Thu, 17 Nov 2022 03:41:34 GMT] [DEBUG] [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+[Thu, 17 Nov 2022 03:41:35 GMT] [DEBUG] [WS => Shard 0] Heartbeat acknowledged, latency of 227ms.
+[Thu, 17 Nov 2022 03:42:16 GMT] [DEBUG] [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+[Thu, 17 Nov 2022 03:42:16 GMT] [DEBUG] [WS => Shard 0] Heartbeat acknowledged, latency of 228ms.
+[Thu, 17 Nov 2022 03:42:57 GMT] [DEBUG] [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+[Thu, 17 Nov 2022 03:42:57 GMT] [DEBUG] [WS => Shard 0] Heartbeat acknowledged, latency of 226ms.
+[Thu, 17 Nov 2022 03:43:38 GMT] [DEBUG] [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+[Thu, 17 Nov 2022 03:43:38 GMT] [DEBUG] [WS => Shard 0] Heartbeat acknowledged, latency of 227ms.
+[Thu, 17 Nov 2022 03:44:19 GMT] [DEBUG] [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+[Thu, 17 Nov 2022 03:44:20 GMT] [DEBUG] [WS => Shard 0] Heartbeat acknowledged, latency of 225ms.
+[Thu, 17 Nov 2022 03:45:01 GMT] [DEBUG] [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+[Thu, 17 Nov 2022 03:45:01 GMT] [DEBUG] [WS => Shard 0] Heartbeat acknowledged, latency of 226ms.
+[Thu, 17 Nov 2022 03:45:42 GMT] [DEBUG] [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+[Thu, 17 Nov 2022 03:45:42 GMT] [DEBUG] [WS => Shard 0] Heartbeat acknowledged, latency of 234ms.
+[Thu, 17 Nov 2022 03:46:23 GMT] [DEBUG] [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+[Thu, 17 Nov 2022 03:46:23 GMT] [DEBUG] [WS => Shard 0] Heartbeat acknowledged, latency of 226ms.
+[Thu, 17 Nov 2022 03:47:04 GMT] [DEBUG] [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+[Thu, 17 Nov 2022 03:47:05 GMT] [DEBUG] [WS => Shard 0] Heartbeat acknowledged, latency of 228ms.
+[Thu, 17 Nov 2022 03:47:46 GMT] [DEBUG] [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+[Thu, 17 Nov 2022 03:47:46 GMT] [DEBUG] [WS => Shard 0] Heartbeat acknowledged, latency of 225ms.
+[Thu, 17 Nov 2022 03:48:27 GMT] [DEBUG] [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+[Thu, 17 Nov 2022 03:48:27 GMT] [DEBUG] [WS => Shard 0] Heartbeat acknowledged, latency of 226ms.
+[Thu, 17 Nov 2022 03:49:08 GMT] [DEBUG] [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+[Thu, 17 Nov 2022 03:49:08 GMT] [DEBUG] [WS => Shard 0] Heartbeat acknowledged, latency of 227ms.
+[Thu, 17 Nov 2022 03:49:50 GMT] [DEBUG] [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+[Thu, 17 Nov 2022 03:49:50 GMT] [DEBUG] [WS => Shard 0] Heartbeat acknowledged, latency of 228ms.
+[Thu, 17 Nov 2022 03:50:31 GMT] [DEBUG] [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+[Thu, 17 Nov 2022 03:50:31 GMT] [DEBUG] [WS => Shard 0] Heartbeat acknowledged, latency of 228ms.
+[Thu, 17 Nov 2022 03:51:12 GMT] [DEBUG] [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+[Thu, 17 Nov 2022 03:51:12 GMT] [DEBUG] [WS => Shard 0] Heartbeat acknowledged, latency of 231ms.
+[Thu, 17 Nov 2022 03:51:53 GMT] [DEBUG] [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+[Thu, 17 Nov 2022 03:51:54 GMT] [DEBUG] [WS => Shard 0] Heartbeat acknowledged, latency of 225ms.
+[Thu, 17 Nov 2022 03:52:35 GMT] [DEBUG] [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+[Thu, 17 Nov 2022 03:52:35 GMT] [DEBUG] [WS => Shard 0] Heartbeat acknowledged, latency of 225ms.
+[Thu, 17 Nov 2022 03:53:16 GMT] [DEBUG] [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+[Thu, 17 Nov 2022 03:53:16 GMT] [DEBUG] [WS => Shard 0] Heartbeat acknowledged, latency of 227ms.
+[Thu, 17 Nov 2022 03:53:57 GMT] [DEBUG] [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+[Thu, 17 Nov 2022 03:53:57 GMT] [DEBUG] [WS => Shard 0] Heartbeat acknowledged, latency of 225ms.
+[Thu, 17 Nov 2022 03:54:38 GMT] [DEBUG] [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+[Thu, 17 Nov 2022 03:54:39 GMT] [DEBUG] [WS => Shard 0] Heartbeat acknowledged, latency of 228ms.
+[Thu, 17 Nov 2022 03:55:20 GMT] [DEBUG] [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+[Thu, 17 Nov 2022 03:55:20 GMT] [DEBUG] [WS => Shard 0] Heartbeat acknowledged, latency of 225ms.
+[Thu, 17 Nov 2022 03:56:01 GMT] [DEBUG] [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+[Thu, 17 Nov 2022 03:56:01 GMT] [DEBUG] [WS => Shard 0] Heartbeat acknowledged, latency of 226ms.
+[Thu, 17 Nov 2022 03:56:42 GMT] [DEBUG] [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+[Thu, 17 Nov 2022 03:56:42 GMT] [DEBUG] [WS => Shard 0] Heartbeat acknowledged, latency of 226ms.
+[Thu, 17 Nov 2022 03:57:23 GMT] [DEBUG] [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+[Thu, 17 Nov 2022 03:57:24 GMT] [DEBUG] [WS => Shard 0] Heartbeat acknowledged, latency of 243ms.
+[Thu, 17 Nov 2022 03:58:05 GMT] [DEBUG] [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+[Thu, 17 Nov 2022 03:58:05 GMT] [DEBUG] [WS => Shard 0] Heartbeat acknowledged, latency of 230ms.
+[Thu, 17 Nov 2022 03:58:46 GMT] [DEBUG] [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+[Thu, 17 Nov 2022 03:58:46 GMT] [DEBUG] [WS => Shard 0] Heartbeat acknowledged, latency of 226ms.
+[Thu, 17 Nov 2022 03:59:27 GMT] [DEBUG] [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+[Thu, 17 Nov 2022 03:59:27 GMT] [DEBUG] [WS => Shard 0] Heartbeat acknowledged, latency of 229ms.
+[Thu, 17 Nov 2022 04:00:08 GMT] [DEBUG] [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+[Thu, 17 Nov 2022 04:00:09 GMT] [DEBUG] [WS => Shard 0] Heartbeat acknowledged, latency of 264ms.
+[Thu, 17 Nov 2022 04:00:50 GMT] [DEBUG] [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+[Thu, 17 Nov 2022 04:00:50 GMT] [DEBUG] [WS => Shard 0] Heartbeat acknowledged, latency of 229ms.
+[Thu, 17 Nov 2022 04:01:31 GMT] [DEBUG] [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+[Thu, 17 Nov 2022 04:01:31 GMT] [DEBUG] [WS => Shard 0] Heartbeat acknowledged, latency of 225ms.
+[Thu, 17 Nov 2022 04:02:12 GMT] [DEBUG] [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+[Thu, 17 Nov 2022 04:02:12 GMT] [DEBUG] [WS => Shard 0] Heartbeat acknowledged, latency of 225ms.
+[Thu, 17 Nov 2022 04:02:53 GMT] [DEBUG] [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+[Thu, 17 Nov 2022 04:02:54 GMT] [DEBUG] [WS => Shard 0] Heartbeat acknowledged, latency of 227ms.
+[Thu, 17 Nov 2022 04:03:35 GMT] [DEBUG] [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+[Thu, 17 Nov 2022 04:03:35 GMT] [DEBUG] [WS => Shard 0] Heartbeat acknowledged, latency of 228ms.
+[Thu, 17 Nov 2022 04:04:16 GMT] [DEBUG] [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+[Thu, 17 Nov 2022 04:04:16 GMT] [DEBUG] [WS => Shard 0] Heartbeat acknowledged, latency of 226ms.
+[Thu, 17 Nov 2022 04:04:57 GMT] [DEBUG] [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+[Thu, 17 Nov 2022 04:04:57 GMT] [DEBUG] [WS => Shard 0] Heartbeat acknowledged, latency of 225ms.
+[Thu, 17 Nov 2022 04:05:38 GMT] [DEBUG] [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+[Thu, 17 Nov 2022 04:05:39 GMT] [DEBUG] [WS => Shard 0] Heartbeat acknowledged, latency of 228ms.
+[Thu, 17 Nov 2022 04:06:20 GMT] [DEBUG] [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+[Thu, 17 Nov 2022 04:06:20 GMT] [DEBUG] [WS => Shard 0] Heartbeat acknowledged, latency of 226ms.
+[Thu, 17 Nov 2022 04:07:01 GMT] [DEBUG] [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+[Thu, 17 Nov 2022 04:07:01 GMT] [DEBUG] [WS => Shard 0] Heartbeat acknowledged, latency of 225ms.
+[Thu, 17 Nov 2022 04:07:42 GMT] [DEBUG] [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+[Thu, 17 Nov 2022 04:07:42 GMT] [DEBUG] [WS => Shard 0] Heartbeat acknowledged, latency of 228ms.
+[Thu, 17 Nov 2022 04:08:23 GMT] [DEBUG] [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+[Thu, 17 Nov 2022 04:08:24 GMT] [DEBUG] [WS => Shard 0] Heartbeat acknowledged, latency of 225ms.
+[Thu, 17 Nov 2022 04:09:05 GMT] [DEBUG] [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+[Thu, 17 Nov 2022 04:09:05 GMT] [DEBUG] [WS => Shard 0] Heartbeat acknowledged, latency of 225ms.
+[Thu, 17 Nov 2022 04:09:46 GMT] [DEBUG] [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+[Thu, 17 Nov 2022 04:09:46 GMT] [DEBUG] [WS => Shard 0] Heartbeat acknowledged, latency of 226ms.
+[Thu, 17 Nov 2022 04:10:27 GMT] [DEBUG] [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+[Thu, 17 Nov 2022 04:10:27 GMT] [DEBUG] [WS => Shard 0] Heartbeat acknowledged, latency of 226ms.
+[Thu, 17 Nov 2022 04:11:09 GMT] [DEBUG] [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+[Thu, 17 Nov 2022 04:11:09 GMT] [DEBUG] [WS => Shard 0] Heartbeat acknowledged, latency of 226ms.
+[Thu, 17 Nov 2022 04:11:50 GMT] [DEBUG] [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+[Thu, 17 Nov 2022 04:11:50 GMT] [DEBUG] [WS => Shard 0] Heartbeat acknowledged, latency of 227ms.
+[Thu, 17 Nov 2022 04:12:31 GMT] [DEBUG] [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+[Thu, 17 Nov 2022 04:12:31 GMT] [DEBUG] [WS => Shard 0] Heartbeat acknowledged, latency of 228ms.
+[Thu, 17 Nov 2022 04:13:12 GMT] [DEBUG] [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+[Thu, 17 Nov 2022 04:13:13 GMT] [DEBUG] [WS => Shard 0] Heartbeat acknowledged, latency of 230ms.
+[Thu, 17 Nov 2022 04:13:54 GMT] [DEBUG] [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+[Thu, 17 Nov 2022 04:13:54 GMT] [DEBUG] [WS => Shard 0] Heartbeat acknowledged, latency of 227ms.
+[Thu, 17 Nov 2022 04:14:35 GMT] [DEBUG] [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+[Thu, 17 Nov 2022 04:14:35 GMT] [DEBUG] [WS => Shard 0] Heartbeat acknowledged, latency of 230ms.
+[Thu, 17 Nov 2022 04:15:16 GMT] [DEBUG] [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+[Thu, 17 Nov 2022 04:15:17 GMT] [DEBUG] [WS => Shard 0] Heartbeat acknowledged, latency of 454ms.
+[Thu, 17 Nov 2022 04:15:57 GMT] [DEBUG] [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+[Thu, 17 Nov 2022 04:15:58 GMT] [DEBUG] [WS => Shard 0] Heartbeat acknowledged, latency of 232ms.
+[Thu, 17 Nov 2022 04:16:39 GMT] [DEBUG] [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+[Thu, 17 Nov 2022 04:16:39 GMT] [DEBUG] [WS => Shard 0] Heartbeat acknowledged, latency of 342ms.
+[Thu, 17 Nov 2022 04:17:20 GMT] [DEBUG] [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+[Thu, 17 Nov 2022 04:17:20 GMT] [DEBUG] [WS => Shard 0] Heartbeat acknowledged, latency of 226ms.
+[Thu, 17 Nov 2022 04:18:01 GMT] [DEBUG] [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+[Thu, 17 Nov 2022 04:18:01 GMT] [DEBUG] [WS => Shard 0] Heartbeat acknowledged, latency of 252ms.
+[Thu, 17 Nov 2022 04:18:42 GMT] [DEBUG] [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+[Thu, 17 Nov 2022 04:18:43 GMT] [DEBUG] [WS => Shard 0] Heartbeat acknowledged, latency of 228ms.
+[Thu, 17 Nov 2022 04:19:24 GMT] [DEBUG] [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+[Thu, 17 Nov 2022 04:19:24 GMT] [DEBUG] [WS => Shard 0] Heartbeat acknowledged, latency of 228ms.
+[Thu, 17 Nov 2022 04:20:05 GMT] [DEBUG] [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+[Thu, 17 Nov 2022 04:20:05 GMT] [DEBUG] [WS => Shard 0] Heartbeat acknowledged, latency of 227ms.
+[Thu, 17 Nov 2022 04:20:46 GMT] [DEBUG] [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+[Thu, 17 Nov 2022 04:20:46 GMT] [DEBUG] [WS => Shard 0] Heartbeat acknowledged, latency of 227ms.
+[Thu, 17 Nov 2022 04:21:27 GMT] [DEBUG] [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+[Thu, 17 Nov 2022 04:21:28 GMT] [DEBUG] [WS => Shard 0] Heartbeat acknowledged, latency of 233ms.
+[Thu, 17 Nov 2022 04:22:09 GMT] [DEBUG] [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+[Thu, 17 Nov 2022 04:22:09 GMT] [DEBUG] [WS => Shard 0] Heartbeat acknowledged, latency of 231ms.
+[Thu, 17 Nov 2022 04:22:50 GMT] [DEBUG] [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+[Thu, 17 Nov 2022 04:22:50 GMT] [DEBUG] [WS => Shard 0] Heartbeat acknowledged, latency of 228ms.
+[Thu, 17 Nov 2022 04:23:31 GMT] [DEBUG] [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+[Thu, 17 Nov 2022 04:23:31 GMT] [DEBUG] [WS => Shard 0] Heartbeat acknowledged, latency of 227ms.
+[Thu, 17 Nov 2022 04:24:12 GMT] [DEBUG] [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+[Thu, 17 Nov 2022 04:24:13 GMT] [DEBUG] [WS => Shard 0] Heartbeat acknowledged, latency of 228ms.
+[Thu, 17 Nov 2022 04:24:54 GMT] [DEBUG] [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+[Thu, 17 Nov 2022 04:24:54 GMT] [DEBUG] [WS => Shard 0] Heartbeat acknowledged, latency of 229ms.
+[Thu, 17 Nov 2022 04:25:35 GMT] [DEBUG] [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+[Thu, 17 Nov 2022 04:25:35 GMT] [DEBUG] [WS => Shard 0] Heartbeat acknowledged, latency of 229ms.
+[Thu, 17 Nov 2022 04:26:16 GMT] [DEBUG] [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+[Thu, 17 Nov 2022 04:26:16 GMT] [DEBUG] [WS => Shard 0] Heartbeat acknowledged, latency of 229ms.
+[Thu, 17 Nov 2022 04:26:57 GMT] [DEBUG] [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+[Thu, 17 Nov 2022 04:26:58 GMT] [DEBUG] [WS => Shard 0] Heartbeat acknowledged, latency of 227ms.
+[Thu, 17 Nov 2022 04:27:39 GMT] [DEBUG] [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+[Thu, 17 Nov 2022 04:27:39 GMT] [DEBUG] [WS => Shard 0] Heartbeat acknowledged, latency of 244ms.
+[Thu, 17 Nov 2022 04:28:20 GMT] [DEBUG] [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+[Thu, 17 Nov 2022 04:28:20 GMT] [DEBUG] [WS => Shard 0] Heartbeat acknowledged, latency of 227ms.
+[Thu, 17 Nov 2022 04:29:01 GMT] [DEBUG] [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+[Thu, 17 Nov 2022 04:29:01 GMT] [DEBUG] [WS => Shard 0] Heartbeat acknowledged, latency of 227ms.
+[Thu, 17 Nov 2022 04:29:42 GMT] [DEBUG] [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+[Thu, 17 Nov 2022 04:29:43 GMT] [DEBUG] [WS => Shard 0] Heartbeat acknowledged, latency of 227ms.
+[Thu, 17 Nov 2022 04:30:24 GMT] [DEBUG] [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+[Thu, 17 Nov 2022 04:30:24 GMT] [DEBUG] [WS => Shard 0] Heartbeat acknowledged, latency of 226ms.
+[Thu, 17 Nov 2022 04:31:05 GMT] [DEBUG] [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+[Thu, 17 Nov 2022 04:31:05 GMT] [DEBUG] [WS => Shard 0] Heartbeat acknowledged, latency of 226ms.
+[Thu, 17 Nov 2022 04:31:46 GMT] [DEBUG] [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+[Thu, 17 Nov 2022 04:31:46 GMT] [DEBUG] [WS => Shard 0] Heartbeat acknowledged, latency of 226ms.
+[Thu, 17 Nov 2022 04:32:27 GMT] [DEBUG] [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+[Thu, 17 Nov 2022 04:32:30 GMT] [DEBUG] [WS => Shard 0] Heartbeat acknowledged, latency of 2707ms.
+[Thu, 17 Nov 2022 04:33:09 GMT] [DEBUG] [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+[Thu, 17 Nov 2022 04:33:09 GMT] [DEBUG] [WS => Shard 0] Heartbeat acknowledged, latency of 227ms.
+[Thu, 17 Nov 2022 04:33:50 GMT] [DEBUG] [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+[Thu, 17 Nov 2022 04:33:50 GMT] [DEBUG] [WS => Shard 0] Heartbeat acknowledged, latency of 237ms.
+[Thu, 17 Nov 2022 04:34:31 GMT] [DEBUG] [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+[Thu, 17 Nov 2022 04:34:31 GMT] [DEBUG] [WS => Shard 0] Heartbeat acknowledged, latency of 226ms.
+[Thu, 17 Nov 2022 04:35:13 GMT] [DEBUG] [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+[Thu, 17 Nov 2022 04:35:13 GMT] [DEBUG] [WS => Shard 0] Heartbeat acknowledged, latency of 227ms.
+[Thu, 17 Nov 2022 04:35:54 GMT] [DEBUG] [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+[Thu, 17 Nov 2022 04:35:54 GMT] [DEBUG] [WS => Shard 0] Heartbeat acknowledged, latency of 227ms.
+[Thu, 17 Nov 2022 04:36:35 GMT] [DEBUG] [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+[Thu, 17 Nov 2022 04:36:35 GMT] [DEBUG] [WS => Shard 0] Heartbeat acknowledged, latency of 227ms.
+[Thu, 17 Nov 2022 04:37:16 GMT] [DEBUG] [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+[Thu, 17 Nov 2022 04:37:17 GMT] [DEBUG] [WS => Shard 0] Heartbeat acknowledged, latency of 258ms.
+[Thu, 17 Nov 2022 04:37:58 GMT] [DEBUG] [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+[Thu, 17 Nov 2022 04:37:58 GMT] [DEBUG] [WS => Shard 0] Heartbeat acknowledged, latency of 227ms.
+[Thu, 17 Nov 2022 04:38:39 GMT] [DEBUG] [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+[Thu, 17 Nov 2022 04:38:39 GMT] [DEBUG] [WS => Shard 0] Heartbeat acknowledged, latency of 227ms.
+[Thu, 17 Nov 2022 04:39:20 GMT] [DEBUG] [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+[Thu, 17 Nov 2022 04:39:20 GMT] [DEBUG] [WS => Shard 0] Heartbeat acknowledged, latency of 226ms.
+[Thu, 17 Nov 2022 04:40:01 GMT] [DEBUG] [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+[Thu, 17 Nov 2022 04:40:02 GMT] [DEBUG] [WS => Shard 0] Heartbeat acknowledged, latency of 227ms.
+[Thu, 17 Nov 2022 04:40:43 GMT] [DEBUG] [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+[Thu, 17 Nov 2022 04:40:43 GMT] [DEBUG] [WS => Shard 0] Heartbeat acknowledged, latency of 227ms.
+[Thu, 17 Nov 2022 04:41:24 GMT] [DEBUG] [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+[Thu, 17 Nov 2022 04:41:24 GMT] [DEBUG] [WS => Shard 0] Heartbeat acknowledged, latency of 231ms.
+[Thu, 17 Nov 2022 04:42:05 GMT] [DEBUG] [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+[Thu, 17 Nov 2022 04:42:05 GMT] [DEBUG] [WS => Shard 0] Heartbeat acknowledged, latency of 234ms.
+[Thu, 17 Nov 2022 04:42:46 GMT] [DEBUG] [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+[Thu, 17 Nov 2022 04:42:47 GMT] [DEBUG] [WS => Shard 0] Heartbeat acknowledged, latency of 226ms.
+[Thu, 17 Nov 2022 04:43:28 GMT] [DEBUG] [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+[Thu, 17 Nov 2022 04:43:28 GMT] [DEBUG] [WS => Shard 0] Heartbeat acknowledged, latency of 278ms.
+[Thu, 17 Nov 2022 04:44:09 GMT] [DEBUG] [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+[Thu, 17 Nov 2022 04:44:09 GMT] [DEBUG] [WS => Shard 0] Heartbeat acknowledged, latency of 226ms.
+[Thu, 17 Nov 2022 04:44:50 GMT] [DEBUG] [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+[Thu, 17 Nov 2022 04:44:50 GMT] [DEBUG] [WS => Shard 0] Heartbeat acknowledged, latency of 235ms.
+[Thu, 17 Nov 2022 04:45:31 GMT] [DEBUG] [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+[Thu, 17 Nov 2022 04:45:32 GMT] [DEBUG] [WS => Shard 0] Heartbeat acknowledged, latency of 227ms.
+[Thu, 17 Nov 2022 04:46:13 GMT] [DEBUG] [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+[Thu, 17 Nov 2022 04:46:13 GMT] [DEBUG] [WS => Shard 0] Heartbeat acknowledged, latency of 229ms.
+[Thu, 17 Nov 2022 04:46:54 GMT] [DEBUG] [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+[Thu, 17 Nov 2022 04:46:54 GMT] [DEBUG] [WS => Shard 0] Heartbeat acknowledged, latency of 266ms.
+[Thu, 17 Nov 2022 04:47:35 GMT] [DEBUG] [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+[Thu, 17 Nov 2022 04:47:35 GMT] [DEBUG] [WS => Shard 0] Heartbeat acknowledged, latency of 227ms.
+[Thu, 17 Nov 2022 04:48:16 GMT] [DEBUG] [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+[Thu, 17 Nov 2022 04:48:17 GMT] [DEBUG] [WS => Shard 0] Heartbeat acknowledged, latency of 241ms.
+[Thu, 17 Nov 2022 04:48:58 GMT] [DEBUG] [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+[Thu, 17 Nov 2022 04:48:58 GMT] [DEBUG] [WS => Shard 0] Heartbeat acknowledged, latency of 700ms.
+[Thu, 17 Nov 2022 04:49:39 GMT] [DEBUG] [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+[Thu, 17 Nov 2022 04:49:39 GMT] [DEBUG] [WS => Shard 0] Heartbeat acknowledged, latency of 227ms.
+[Thu, 17 Nov 2022 04:50:20 GMT] [DEBUG] [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+[Thu, 17 Nov 2022 04:50:20 GMT] [DEBUG] [WS => Shard 0] Heartbeat acknowledged, latency of 227ms.
+[Thu, 17 Nov 2022 04:51:01 GMT] [DEBUG] [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+[Thu, 17 Nov 2022 04:51:02 GMT] [DEBUG] [WS => Shard 0] Heartbeat acknowledged, latency of 229ms.
+[Thu, 17 Nov 2022 04:51:43 GMT] [DEBUG] [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+[Thu, 17 Nov 2022 04:51:43 GMT] [DEBUG] [WS => Shard 0] Heartbeat acknowledged, latency of 231ms.
+[Thu, 17 Nov 2022 04:52:24 GMT] [DEBUG] [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+[Thu, 17 Nov 2022 04:52:24 GMT] [DEBUG] [WS => Shard 0] Heartbeat acknowledged, latency of 226ms.
+[Thu, 17 Nov 2022 04:53:05 GMT] [DEBUG] [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+[Thu, 17 Nov 2022 04:53:05 GMT] [DEBUG] [WS => Shard 0] Heartbeat acknowledged, latency of 227ms.
+[Thu, 17 Nov 2022 04:53:47 GMT] [DEBUG] [WS => Shard 0] [HeartbeatTimer] Sending a heartbeat.
+[Thu, 17 Nov 2022 04:53:47 GMT] [DEBUG] [WS => Shard 0] Heartbeat acknowledged, latency of 226ms.
